@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+![](/images/ralle_flyer.png)
 
 We are a movement of staff at Johns Hopkins University organizing a union in order to win improvements in our working conditions and demand dignity, respect, and a contract. In labs and offices across the university, staff workers at JHU make the research being done here some of the best in the world.
 
