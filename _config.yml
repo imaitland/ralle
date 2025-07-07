@@ -11,9 +11,9 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Research and Lab Labour Empowered"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://imaitland.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "RALLE - organizing committee"
+description              : &description "RALLE is an effort to organize the research and lab labour that keeps the research and teaching being done JHU amongst the best in the world."
+url                      : https://imaitland.github.io/ralle # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "github.com/imaitland/ralle"
 
@@ -22,11 +22,11 @@ repository               : "github.com/imaitland/ralle"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "ralle_logo.png"
+  name             : "RALLE"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "research and lab labour empowered"
+  location         : "Baltimore, Maryland, USA"
   employer         : "Johns Hopkins University"
   uri              : # URL
   email            : "none@example.org" 
