@@ -8,6 +8,3 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-
-  - title: "Blog"
-    url: /year-archive/
