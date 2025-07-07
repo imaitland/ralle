@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![ralle flyer](/images/ralle_flyer.png)
+![ralle flyer](images/ralle_flyer.png)
 
 We are a movement of staff at Johns Hopkins University organizing a union in order to win improvements in our working conditions and demand dignity, respect, and a contract. In labs and offices across the university, staff workers at JHU make the research being done here some of the best in the world.
 
@@ -14,7 +14,7 @@ We are affiliated with United Electrical, Radio, and Machine Workers (UE). We sh
 
 Why should we unionize?
 ======
-![ralle group](/images/ralle_group.png)
+![ralle group](images/ralle_group.png)
 A union contract guarantees a minimum baseline of compensation, workplace expectations, and protection for research staff members across campuses. 
 
 Without a contract, the administration does not have to consult us about changes to our labor conditions and can roll back past wins over time.
@@ -34,4 +34,4 @@ Our issues
 5. Job security and transitional funding
 6. Commuter benefits
 
-![](/images/ralle_table.png)
+![](images/ralle_table.png)
