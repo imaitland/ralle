@@ -14,6 +14,7 @@ We are affiliated with United Electrical, Radio, and Machine Workers (UE). We sh
 
 Why should we unionize?
 ======
+![](/images/ralle_group.png)
 A union contract guarantees a minimum baseline of compensation, workplace expectations, and protection for research staff members across campuses. 
 
 Without a contract, the administration does not have to consult us about changes to our labor conditions and can roll back past wins over time.
