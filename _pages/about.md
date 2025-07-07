@@ -8,7 +8,7 @@ redirect_from:
 ---
 ![ralle flyer](images/ralle_flyer.png)
 
-We are a movement of staff at Johns Hopkins University organizing a union in order to win improvements in our working conditions and demand dignity, respect, and a contract. In labs and offices across the university, staff workers are an essential part of the world-class research happening at JHU.
+We are a movement of research and lab staff at Johns Hopkins University organizing a union in order to win improvements in our working conditions and demand dignity, respect, and a contract. In labs and offices across the university, staff workers are an essential part of the world-class research happening at JHU.
 
 We are affiliated with United Electrical, Radio, and Machine Workers (UE). We share their belief that unions are for everyone and that a member-led and organized union is the best way to achieve wins for workers.
 
