@@ -13,8 +13,8 @@ title                    : "Research and Lab Labour Empowered"
 title_separator          : "-"
 name                     : &name "RALLE - organizing committee"
 description              : &description "RALLE is an effort to organize the research and lab labour that keeps the research and teaching being done JHU amongst the best in the world."
-url                      : https://imaitland.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/ralle" # the subpath of your site, e.g. "/blog"
+url                      : https://rallejhu.org # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "github.com/imaitland/ralle"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
