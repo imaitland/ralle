@@ -2,49 +2,27 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// Always use light theme
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+  return "light";
 };
 
-// Determine the computed theme, which can be "dark" or "light". If the theme setting is
-// "system", the computed theme is determined based on the user's system preference.
+// Always use light theme
 let determineComputedTheme = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting != "system") {
-    return themeSetting;
-  }
-  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  return "light";
 };
 
-// detect OS/browser preference
-const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+// Always use light theme
+const browserPref = 'light';
 
-// Set the theme on page load or when explicitly called
+// Always set light theme
 let setTheme = (theme) => {
-  const use_theme =
-    theme ||
-    localStorage.getItem("theme") ||
-    $("html").attr("data-theme") ||
-    browserPref;
-
-  if (use_theme === "dark") {
-    $("html").attr("data-theme", "dark");
-    $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-  } else if (use_theme === "light") {
-    $("html").removeAttr("data-theme");
-    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
-  }
+  $("html").removeAttr("data-theme");
 };
 
-// Toggle the theme manually
+// Theme toggle removed - always use light theme
 var toggleTheme = () => {
-  const current_theme = $("html").attr("data-theme");
-  const new_theme = current_theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", new_theme);
-  setTheme(new_theme);
+  // Function kept for compatibility but does nothing
 };
 
 /* ==========================================================================
@@ -68,8 +46,8 @@ if (plotlyElements.length > 0) {
         let chartElement = document.createElement("div");
         elem.parentElement.after(chartElement);
 
-        // Set the theme for the plot and render it
-        const theme = (determineComputedTheme() === "dark") ? plotlyDarkLayout : plotlyLightLayout;
+        // Always use light theme for plots
+        const theme = plotlyLightLayout;
         if (jsonData.layout) {
           jsonData.layout.template = (jsonData.layout.template) ? { ...theme, ...jsonData.layout.template } : theme;
         } else {
@@ -90,17 +68,10 @@ $(document).ready(function () {
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
-  // If the user hasn't chosen a theme, follow the OS preference
+  // Always use light theme
   setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
 
-  // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
+  // Theme toggle removed
 
   // Enable the sticky footer
   var bumpIt = function () {
