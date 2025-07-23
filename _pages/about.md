@@ -23,7 +23,6 @@ Once you are in a union, there is always somebody there to back you up.
 
 - [Interest form](http://tinyurl.com/ralle-petition)  to register your interest in being part of building a better workplace/
 - [Info session](https://forms.gle/soJMaRocy4XQvN6q7) for learning more about the organizing efforts that are happening.
-- [Salary share](https://docs.google.com/forms/d/15m-pFtZgaD016DWXY3dqhILbr49kELBZ-RcRRmlvmiQ/viewform?edit_requested=true) are you research staff? Share your salary anonymously here.
 
 Our issues
 ======
