@@ -21,8 +21,9 @@ Without a contract, the administration does not have to consult us about changes
 
 Once you are in a union, there is always somebody there to back you up. 
 
-- [Interest form](http://tinyurl.com/ralle-petition)  to register your interest in being part of building a better workplace/
+- [Interest form](http://tinyurl.com/ralle-petition)  to register your interest in being part of building a better workplace
 - [Info session](https://forms.gle/soJMaRocy4XQvN6q7) for learning more about the organizing efforts that are happening.
+- [Petition](http://tinyurl.com/ralle-petition) to lend your voice to the growing staff movement demanding better working conditions
 
 Our issues
 ======
