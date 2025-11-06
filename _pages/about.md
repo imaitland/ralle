@@ -2,11 +2,23 @@
 permalink: /
 title: "We are RALLE (Research and Lab Labor Empowered) - the unionization effort for JHU research staff"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
+carousel:
+  - image_path: /images/gallery/ralle_flyer.png
+    title: "RALLE - Research and Lab Labor Empowered"
+  - image_path: /images/gallery/gallery_image_01.png
+  - image_path: /images/gallery/gallery_image_02.png
+  - image_path: /images/gallery/gallery_image_03.png
+  - image_path: /images/gallery/gallery_image_04.png
+  - image_path: /images/gallery/gallery_image_05.png
+  - image_path: /images/gallery/gallery_image_06.png
+  - image_path: /images/gallery/gallery_image_07.png
+  - image_path: /images/gallery/gallery_image_08.png
+  - image_path: /images/gallery/gallery_image_09.png
 ---
-![ralle flyer](images/ralle_flyer.png)
+{% include carousel %}
 
 We are a movement of research and lab staff at Johns Hopkins University organizing a union in order to win improvements in our working conditions and demand dignity, respect, and a contract. In labs and offices across the university, staff workers are an essential part of the world-class research happening at JHU.
 

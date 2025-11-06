@@ -110,4 +110,23 @@ $(document).ready(function () {
     preventDefault: false,
   });
 
+  // Initialize Splide carousel
+  const carouselElement = document.querySelector('#image-carousel');
+  if (carouselElement && typeof Splide !== 'undefined') {
+    var splide = new Splide('#image-carousel', {
+      type: 'loop',           // Enable infinite loop
+      arrows: false,          // Hide navigation arrows (clean look)
+      pagination: false,      // Hide pagination dots (clean look)
+      drag: true,             // Enable drag to navigate
+      perPage: 1,             // Show one slide at a time
+      autoplay: true,         // Enable autoplay
+      interval: 4000,         // 4 seconds per slide
+      speed: 1000,            // Transition speed
+      pauseOnHover: false,    // Don't pause on hover
+      pauseOnFocus: false,    // Don't pause on focus
+    });
+
+    splide.mount();
+  }
+
 });

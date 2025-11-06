@@ -1,0 +1,70 @@
+/*
+ * Carousel styles for Splide.js
+ * Note: Splide core CSS is loaded via CDN in head.html
+ */
+
+// Custom carousel container styles
+.splide {
+  margin: 2em 0;
+  max-width: 100%;
+
+  @include breakpoint($medium) {
+    margin: 3em 0;
+  }
+}
+
+.splide__track {
+  overflow: hidden;
+}
+
+.splide__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    display: block;
+  }
+}
+
+// Caption styles
+.carousel__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  color: #fff;
+  text-align: center;
+  font-size: $type-size-5;
+}
+
+// Responsive adjustments
+@include breakpoint($small) {
+  .splide__slide img {
+    max-height: 400px;
+  }
+}
+
+@include breakpoint($medium) {
+  .splide__slide img {
+    max-height: 500px;
+  }
+}
+
+@include breakpoint($large) {
+  .splide__slide img {
+    max-height: 600px;
+  }
+}
+
+@include breakpoint($x-large) {
+  .splide__slide img {
+    max-height: 700px;
+  }
+}
