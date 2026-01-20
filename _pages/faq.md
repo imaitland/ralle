@@ -7,7 +7,7 @@ author_profile: true
 
 ## What is RALLE?
 
-RALLE (Research and Lab Labour Empowered) is a movement of research and lab staff at Johns Hopkins University organizing a union to win improvements in our working conditions and demand dignity, respect, and a contract. We are affiliated with United Electrical, Radio, and Machine Workers (UE).
+RALLE (Research and Lab Labor Empowered) is a movement of research and lab staff at Johns Hopkins University organizing a union to win improvements in our working conditions and demand dignity, respect, and a contract. We are affiliated with United Electrical, Radio, and Machine Workers (UE).
 
 ## Who is UE?
 
@@ -19,11 +19,13 @@ A union gives workers collective bargaining power to negotiate the terms of our 
 
 ## Do other research staff unions exist?
 
-Yes! Research staff and postdocs are unionized at many universities including [Columbia](https://www.studentworkersofcolumbia.com/), the [UC system](https://www.uaw4811.org/), [University of Pennsylvania](https://getup-uaw.org/), [Rutgers](https://rutgersaaup.org/our-history/), and even other units at Johns Hopkins. Graduate students at JHU formed [TRU-UE](https://trujhu.org/) and successfully negotiated their first contract.
+Yes! Research staff and postdocs are unionized at many universities including [Columbia](https://www.studentworkersofcolumbia.com/), the [UC system](https://www.uaw4811.org/), [University of Pennsylvania](https://getup-uaw.org/), and [Rutgers](https://rutgersaaup.org/our-history/). There are also other bargaining units at Johns Hopkins. Graduate students at JHU formed [TRU-UE](https://trujhu.org/) and successfully negotiated their first contract.
 
 ## Who can join RALLE?
 
-Research staff and lab workers employed by Johns Hopkins University who work on scientific research projects. This includes research associates, lab technicians, research coordinators, and similar positions who are not supervisors or managers.
+Research staff and lab workers employed by Johns Hopkins University who work on scientific research projects or in research laboratories. This includes lab technicians, research coordinators, and similar positions who are not supervisors or managers.
+
+If you're not sure if you're eligible, we encourage you to sign a card! We will get in touch with you to follow up if needed.
 
 ## Can international workers join?
 
@@ -56,11 +58,7 @@ The NLRA protects organizing activities from retaliation. Contract negotiations 
 
 ## Are there membership fees?
 
-There are no fees or dues until after a contract has been negotiated and ratified by the membership. Once dues begin, members typically pay a small percentage of gross compensation (usually around 1.4-1.5%). These dues fund union operations and support services for members.
-
-## Do I have to pay dues?
-
-Members pay dues and gain full voting rights and participation privileges in union governance. Non-members may be required to pay equivalent agency fees depending on the contract. Only members can vote on contract ratification and union decisions.
+There are no fees or dues until after a contract has been negotiated and ratified by the membership. Once dues begin, members typically pay a small percentage of gross compensation (usually around 1.4 - 1.5%). These dues fund union operations and support services for members.
 
 ## Will salary increases hurt lab funding or PI grants?
 
@@ -73,12 +71,12 @@ Hopkins controls substantial overhead revenue from grants, holds a multi-billion
 ## What issues is RALLE focusing on?
 
 Our key issues include:
-1. Fair compensation
-2. Uniform job descriptions
-3. Transparent career paths
-4. Overtime pay
-5. Job security and transitional funding
-6. Commuter benefits
+- Fair compensation
+- Uniform job descriptions
+- Transparent career paths
+- Overtime pay
+- Job security and transitional funding
+- Commuter benefits
 
 ## What is a union contract?
 
@@ -106,5 +104,5 @@ After a successful union election, we will:
 - Attend an [info session](https://forms.gle/soJMaRocy4XQvN6q7)
 - Fill out our [interest form](http://tinyurl.com/ralle-petition)
 - Email us at [info@rallejhu.org](mailto:info@rallejhu.org)
-- Check out [TRU-UE's experience](https://trujhu.org/) as graduate students at JHU
+- Check out [TRU-UE's experience](https://trujhu.org/) as graduate workers at JHU
 - Learn about [UE's work with postdocs](https://www.ueunion.org/)
