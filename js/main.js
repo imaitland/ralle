@@ -37,8 +37,13 @@
       });
     });
 
-    // Open first item by default
-    if (faqItems.length > 0) {
+    // Open FAQ item based on URL hash, or first item by default
+    const hash = window.location.hash.slice(1);
+    const targetItem = hash ? document.querySelector(`.faq-item#${CSS.escape(hash)}`) : null;
+
+    if (targetItem) {
+      targetItem.classList.add('open');
+    } else if (faqItems.length > 0) {
       faqItems[0].classList.add('open');
     }
   }
@@ -53,6 +58,15 @@
         const target = document.querySelector(targetId);
         if (target) {
           e.preventDefault();
+
+          // If target is a FAQ item, open it and close others
+          if (target.classList.contains('faq-item')) {
+            document.querySelectorAll('.faq-item.open').forEach(item => {
+              if (item !== target) item.classList.remove('open');
+            });
+            target.classList.add('open');
+          }
+
           target.scrollIntoView({
             behavior: 'smooth',
             block: 'start'

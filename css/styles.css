@@ -119,7 +119,7 @@ a:hover {
 
 /* Offset anchors for sticky header */
 [id] {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 6rem;
 }
 
 strong {
@@ -371,6 +371,16 @@ section:last-of-type {
   text-transform: none;
   font-family: var(--font-body);
   font-weight: 700;
+}
+
+.faq-item h3 a {
+  color: inherit;
+  text-decoration: none;
+  flex: 1;
+}
+
+.faq-item h3 a:hover {
+  color: inherit;
 }
 
 .faq-item h3::after {
