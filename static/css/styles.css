@@ -1,8 +1,41 @@
 /*
   RALLE Static Site
   Minimalist, typography-focused design
-  Inspired by wehtt.am/fonts
+  Fonts: Union Gothic (display) + Klima (body) from wehtt.am/fonts
 */
+
+/* Font faces */
+@font-face {
+  font-family: 'Union Gothic';
+  src: url('../fonts/union-gothic/union_gothic-variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Klima';
+  src: url('../fonts/klima-web/klima-regular-web.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Klima';
+  src: url('../fonts/klima-web/klima-medium-web.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Klima';
+  src: url('../fonts/klima-web/klima-bold-web.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --text: #1a1a1a;
@@ -14,7 +47,8 @@
   --link-hover: var(--accent);
   --border: #e0e0e0;
   --max-width: 720px;
-  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Union Gothic', system-ui, sans-serif;
+  --font-body: 'Klima', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'Source Code Pro', monospace;
 }
 
@@ -31,7 +65,7 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -42,13 +76,16 @@ body {
 
 /* Typography */
 h1, h2, h3, h4 {
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
 }
 
 h1 {
   font-size: 2.5rem;
+  font-weight: 800;
   margin-bottom: 1.5rem;
 }
 
@@ -81,7 +118,7 @@ a:hover {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Layout */
@@ -114,10 +151,12 @@ header .container {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.25rem;
   text-decoration: none;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .logo:hover {
@@ -132,7 +171,10 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 0.875rem;
+  font-weight: 500;
   color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 nav a:hover,
@@ -147,9 +189,11 @@ nav a.active {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: 900;
   max-width: 600px;
   margin-bottom: 1.5rem;
+  line-height: 1;
 }
 
 .hero .subtitle {
@@ -157,6 +201,7 @@ nav a.active {
   color: var(--text-secondary);
   max-width: 540px;
   margin-bottom: 2rem;
+  text-transform: none;
 }
 
 /* CTAs */
@@ -170,10 +215,13 @@ nav a.active {
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
+  font-family: var(--font-display);
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
-  border: 1px solid var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  border: 2px solid var(--text);
   background: transparent;
   color: var(--text);
   cursor: pointer;
@@ -246,11 +294,15 @@ section:last-of-type {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  font-weight: 500;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
 }
 
 .issues-list a::after {
   content: '\2192';
+  font-family: var(--font-body);
   opacity: 0;
   transition: opacity 0.15s ease;
 }
@@ -290,10 +342,15 @@ section:last-of-type {
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
+  font-size: 1rem;
+  text-transform: none;
+  font-family: var(--font-body);
+  font-weight: 700;
 }
 
 .faq-item h3::after {
   content: '+';
+  font-family: var(--font-display);
   font-weight: 400;
   font-size: 1.25rem;
   flex-shrink: 0;
@@ -321,8 +378,9 @@ section:last-of-type {
 }
 
 .stat-callout .number {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 900;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -356,6 +414,8 @@ footer .container {
   color: var(--text-secondary);
   font-size: 0.875rem;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .footer-links a:hover {
@@ -374,7 +434,7 @@ footer .container {
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   h1 {
