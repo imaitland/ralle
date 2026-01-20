@@ -184,8 +184,28 @@ nav a.active {
 
 /* Hero */
 .hero {
+  position: relative;
   padding: 4rem 0 3rem;
   border-bottom: 1px solid var(--border);
+  overflow: visible;
+}
+
+.hero-badge {
+  position: absolute;
+  top: 1rem;
+  right: max(1.5rem, calc(50% - 360px + 1.5rem));
+  width: clamp(80px, 12vw, 140px);
+  height: auto;
+  transform: rotate(30deg);
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.15));
+  z-index: 10;
+  pointer-events: none;
+}
+
+@media (min-width: 900px) {
+  .hero-badge {
+    top: -1.5rem;
+  }
 }
 
 .hero h1 {
@@ -431,6 +451,13 @@ footer .container {
 @media (max-width: 640px) {
   html {
     font-size: 16px;
+  }
+
+  .hero-badge {
+    top: 0.5rem;
+    right: 1.5rem;
+    width: 60px;
+    transform: rotate(25deg);
   }
 
   .hero h1 {
