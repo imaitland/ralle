@@ -362,11 +362,6 @@ section:last-of-type {
 
 .faq-item h3 {
   margin-top: 0;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
   font-size: 1rem;
   text-transform: none;
   font-family: var(--font-body);
@@ -376,33 +371,15 @@ section:last-of-type {
 .faq-item h3 a {
   color: inherit;
   text-decoration: none;
-  flex: 1;
 }
 
 .faq-item h3 a:hover {
-  color: inherit;
-}
-
-.faq-item h3::after {
-  content: '+';
-  font-family: var(--font-display);
-  font-weight: 400;
-  font-size: 1.25rem;
-  flex-shrink: 0;
-}
-
-.faq-item.open h3::after {
-  content: '\2212';
+  color: var(--link-hover);
 }
 
 .faq-answer {
-  display: none;
   padding-top: 1rem;
   color: var(--text-secondary);
-}
-
-.faq-item.open .faq-answer {
-  display: block;
 }
 
 /* Stats callout */
