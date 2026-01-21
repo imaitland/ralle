@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "RALLE - 研究与实验室劳动者联盟",
+    "description": "RALLE是约翰霍普金斯大学研究和实验室工作人员组织工会的运动，争取尊严、尊重和合同。"
+  },
+  "nav": {
+    "platform": "平台",
+    "faq": "常见问题"
+  },
+  "hero": {
+    "title": "研究与实验室劳动者联盟",
+    "subtitle": "我们是约翰霍普金斯大学研究和实验室工作人员的运动，正在组织工会以赢得尊严、尊重和合同。",
+    "signPetition": "签署请愿书",
+    "infoSession": "信息说明会"
+  },
+  "about": {
+    "intro": "在大学各处的实验室和办公室里，工作人员是JHU世界一流研究的重要组成部分。我们隶属于<a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">美国电气、无线电和机器工人联合会（UE）</a>。我们认同他们的理念：工会是为每个人服务的，由成员领导和组织的工会是为工人争取胜利的最佳方式。"
+  },
+  "gallery": {
+    "prevPage": "上一页",
+    "nextPage": "下一页",
+    "page1": "第1页",
+    "page2": "第2页",
+    "members": "RALLE成员",
+    "event": "RALLE活动",
+    "organizing": "RALLE组织活动"
+  },
+  "whyUnionize": {
+    "title": "为什么要组建工会？",
+    "p1": "工会合同为各校区的研究人员提供薪酬、工作期望和保护的最低基准保障。",
+    "p2": "没有合同，行政部门无需就我们的劳动条件变更征求意见，并可能随时间推移撤回过去的成果。",
+    "p3": "一旦你加入工会，总会有人支持你。",
+    "statNumber": "1,500+",
+    "statLabel": "与研究人员的面对面交流"
+  },
+  "issues": {
+    "title": "我们的诉求",
+    "intro": "我们已与1,500多名研究人员进行了面对面交流，了解我们关心的问题。以下是我们听到的一些最重要的议题。",
+    "fairCompensation": "公平薪酬",
+    "transparentCareer": "透明的职业发展路径",
+    "jobSecurity": "工作保障和过渡资金",
+    "uniformDescriptions": "统一的职位描述",
+    "commuterBenefits": "通勤福利",
+    "overtimePay": "加班费",
+    "notExhaustive": "这不是完整的清单。我们正在努力保护我们现有的所有福利，并争取更好的学费减免、退休福利、对父母和照顾者的更多支持、更好的保险等等。",
+    "readPlatform": "阅读我们的完整平台"
+  },
+  "getInvolved": {
+    "title": "参与进来",
+    "intro": "一旦我们赢得工会选举并准备与行政部门谈判，我们的具体谈判提案将根据研究人员的更多意见来制定。让你的声音被听到。",
+    "signPetition": "签署请愿书",
+    "attendSession": "参加信息说明会",
+    "emailUs": "给我们发邮件"
+  },
+  "footer": {
+    "platform": "平台",
+    "faq": "常见问题",
+    "contact": "联系我们",
+    "ueUnion": "UE工会",
+    "copyright": "RALLE - 研究与实验室劳动者联盟",
+    "colophon": "字体：<a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Union Gothic</a>、<a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Klima</a>、<a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Clack</a>"
+  },
+  "langSwitcher": {
+    "en": "EN",
+    "esMX": "ES",
+    "zhCN": "中文"
+  },
+  "platform": {
+    "meta": {
+      "title": "平台 - RALLE",
+      "description": "RALLE正在争取的议题：公平薪酬、透明的职业发展路径、工作保障等。"
+    },
+    "title": "我们的平台",
+    "intro": "我们已与1,500多名研究人员进行了面对面交流，了解我们关心的问题。以下是我们听到的一些最重要的议题。",
+    "pageNav": {
+      "compensation": "薪酬",
+      "career": "职业发展",
+      "security": "工作保障",
+      "descriptions": "职位描述",
+      "commuter": "通勤",
+      "overtime": "加班"
+    },
+    "compensation": {
+      "title": "公平薪酬",
+      "p1": "我们应该获得与通货膨胀同步的年度加薪。今年，JHU单方面拒绝给年薪超过80,000美元的员工发放生活成本增长补贴，只给年薪低于80,000美元的员工1.8%的加薪。通货膨胀率为2.7%，这意味着每位研究人员实际上都遭受了减薪。",
+      "p2": "与此同时，Ron Daniels的薪资从2023年的2,358,085美元上涨到2024年的3,308,178美元；包括奖金在内的总薪酬增长超过8%。",
+      "p3": "我们应该获得有竞争力的薪资。JHU的实验室技术员起薪比邻近的马里兰大学巴尔的摩分校低15,000美元。其他研究人员职位也存在类似的差距。",
+      "p4": "我们应该获得薪资透明。研究人员报告说，职位列出的薪资范围与人力资源部最终提供的薪资之间存在巨大差异。",
+      "p5": "<strong>凭借超过4.9亿美元的年度预算盈余和130亿美元的捐赠基金，JHU完全负担得起。</strong>"
+    },
+    "career": {
+      "title": "透明的职业发展路径",
+      "p1": "我们应该有机会把在约翰霍普金斯的研究工作发展成职业。我们积累了机构知识，为项目和实验室提供重要支持。我们应该有机会在岗位上继续发展。",
+      "p2": "对于绑大多数研究人员来说，晋升没有固定的时间表。主管通常不确定下一步可以提供什么晋升，并且需要花费大量研究时间来处理官僚障碍。",
+      "p3": "许多员工在提交晋升申请后要等待数月甚至数年才能得到人力资源部的回复，而且在等待晋升批准期间几乎没有或完全没有补发工资。",
+      "p4": "在「紧缩」时期晋升会被冻结。"
+    },
+    "security": {
+      "title": "工作保障和过渡资金",
+      "p1": "如果项目资金用完，我们应该得到JHU的支持来寻找新的实验室。我们为工作带来了宝贵的专业知识！",
+      "p2": "我们应该获得过渡资金、遣散费，以及防止不公平纪律处分和解雇的正当理由保护。",
+      "p3": "JHU的博士生在工会合同中赢得了3个月的过渡资金。博士生在过渡资金期间获得了寻找新实验室的机构支持。如果博士生在没有正当理由的情况下被解除职位、受到歧视、遭到报复等，他们可以获得工会代表。"
+    },
+    "descriptions": {
+      "title": "统一的职位描述",
+      "p1": "许多研究人员报告说，他们在履行与更高级职位相关的职责，而同事做着同样的工作却获得更高的报酬。",
+      "p2": "目前，如果被要求执行职位描述范围之外的工作，员工没有有效的申诉途径。",
+      "p3": "职位描述保护混合工作模式。"
+    },
+    "commuter": {
+      "title": "通勤福利",
+      "p1": "我们应该享有可负担的停车费。主医学院园区的月停车费为120美元——如果你足够幸运能得到一个车位的话。就在今年，霍普金斯单方面取消了员工每日停车折扣，要求员工承担33%的增长。",
+      "p2": "对于在马里兰州工作的员工，公共交通报销上限为每月60美元。许多员工每周的花费都超过这个数额。"
+    },
+    "overtime": {
+      "title": "加班费",
+      "p1": "我们致力于我们的实验和研究。我们应该为每一小时的工作获得报酬。"
+    },
+    "cta": {
+      "notExhaustive": "这不是完整的清单。我们正在努力保护我们现有的所有福利，并争取更好的学费减免、退休福利、对父母和照顾者的更多支持、更好的保险等等。",
+      "bargaining": "一旦我们赢得工会选举并准备与行政部门谈判，我们的具体谈判提案将根据研究人员的更多意见来制定。",
+      "signPetition": "签署请愿书",
+      "attendSession": "参加信息说明会"
+    }
+  },
+  "faq": {
+    "meta": {
+      "title": "常见问题 - RALLE",
+      "description": "关于RALLE和在约翰霍普金斯大学组建工会的常见问题。"
+    },
+    "title": "常见问题",
+    "pageNav": {
+      "whatIsRalle": "什么是RALLE？",
+      "whoIsUe": "UE是谁？",
+      "whyUnion": "为什么要工会？",
+      "otherUnions": "其他工会？",
+      "whoCanJoin": "谁能加入？",
+      "international": "国际员工",
+      "steps": "步骤",
+      "getInvolved": "参与",
+      "retaliation": "报复",
+      "piRelationship": "与PI的关系",
+      "fees": "费用",
+      "labFunding": "实验室资金",
+      "affordability": "可负担性",
+      "contract": "合同",
+      "strikes": "罢工",
+      "membership": "会员资格",
+      "afterVote": "投票后",
+      "learnMore": "了解更多"
+    },
+    "whatIsRalle": {
+      "question": "什么是RALLE？",
+      "answer": "RALLE（研究与实验室劳动者联盟）是约翰霍普金斯大学研究和实验室工作人员组织工会的运动，旨在改善我们的工作条件，争取尊严、尊重和合同。我们隶属于美国电气、无线电和机器工人联合会（UE）。"
+    },
+    "whoIsUe": {
+      "question": "UE是谁？",
+      "answer": "<a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">美国电气、无线电和机器工人联合会（UE）</a>是一个民主的、基层工人工会，自1930年代以来一直为工人权利而战。UE以其成员驱动的结构和社会正义倡导而闻名。UE代表全国各地的学术工作者，并相信工会是为每个人服务的。"
+    },
+    "whyUnion": {
+      "question": "什么是工会，为什么JHU需要工会？",
+      "answer": "工会赋予工人集体谈判的权力，以协商我们的雇佣条款。没有工会，大学对我们的薪资、福利和工作条件拥有单方面的控制权。工会合同为各校区的研究人员提供薪酬、工作期望和保护的最低基准保障。"
+    },
+    "otherUnions": {
+      "question": "其他研究人员工会存在吗？",
+      "answer": "是的！研究人员和博士后在许多大学都有工会，包括<a href=\"https://www.studentworkersofcolumbia.com/\" target=\"_blank\" rel=\"noopener noreferrer\">哥伦比亚大学</a>、<a href=\"https://www.uaw4811.org/\" target=\"_blank\" rel=\"noopener noreferrer\">加州大学系统</a>、<a href=\"https://getup-uaw.org/\" target=\"_blank\" rel=\"noopener noreferrer\">宾夕法尼亚大学</a>和<a href=\"https://rutgersaaup.org/our-history/\" target=\"_blank\" rel=\"noopener noreferrer\">罗格斯大学</a>。约翰霍普金斯也有其他谈判单位。JHU的研究生组建了<a href=\"https://trujhu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">TRU-UE</a>并成功谈判了他们的第一份合同。"
+    },
+    "whoCanJoin": {
+      "question": "谁可以加入RALLE？",
+      "answer1": "在约翰霍普金斯大学工作的研究人员和实验室工作者，从事科学研究项目或在研究实验室工作。这包括实验室技术员、研究协调员和类似职位，但不包括主管或经理。",
+      "answer2": "如果你不确定自己是否有资格，我们鼓励你签署一张卡片！如有需要，我们会与你联系跟进。"
+    },
+    "international": {
+      "question": "国际员工可以加入吗？",
+      "answer": "可以！《国家劳动关系法》第7条保护所有工人的组织权利，无论签证状态或移民身份如何。国际员工与公民和居民拥有同样的合法组织权利。"
+    },
+    "steps": {
+      "question": "组建工会的步骤是什么？",
+      "step1": "建立组织团队",
+      "step2": "收集工人的授权卡",
+      "step3": "寻求雇主的承认",
+      "step4": "举行代表选举",
+      "step5": "选举工会领导层",
+      "step6": "谈判合同"
+    },
+    "howToGetInvolved": {
+      "question": "我如何参与？",
+      "intro": "你可以：",
+      "item1": "填写我们的<a href=\"http://tinyurl.com/ralle-petition\" target=\"_blank\" rel=\"noopener noreferrer\">意向表</a>登记你的兴趣",
+      "item2": "报名参加<a href=\"https://forms.gle/soJMaRocy4XQvN6q7\" target=\"_blank\" rel=\"noopener noreferrer\">信息说明会</a>了解更多",
+      "item3": "加入组织委员会帮助建设运动",
+      "item4": "与你的同事谈论组建工会"
+    },
+    "retaliation": {
+      "question": "大学可以因组建工会而报复员工吗？",
+      "answer": "不可以。《国家劳动关系法》保护工人组织和加入工会的权利。对工人工会活动的报复是违法的。如果你遭受报复，请立即联系组织委员会。"
+    },
+    "piRelationship": {
+      "question": "组建工会会影响我与PI或主管的关系吗？",
+      "answer": "《国家劳动关系法》保护组织活动免受报复。合同谈判是与大学行政部门进行的，而不是与个别PI或主管。工会旨在改善支持高质量研究的工作条件，而不是干扰研究过程或导师关系。"
+    },
+    "fees": {
+      "question": "有会员费吗？",
+      "answer": "在合同谈判完成并经会员批准之前，没有任何费用或会费。会费开始后，会员通常支付总薪酬的一小部分（通常约为1.4-1.5%）。这些会费用于资助工会运营和为会员提供支持服务。"
+    },
+    "labFunding": {
+      "question": "加薪会损害实验室资金或PI的资助吗？",
+      "answer": "普林斯顿大学和麻省理工学院等大学通过机构预算资助津贴增长，而不是给个别研究实验室增加负担。约翰霍普金斯拥有大量资源，包括大额捐赠基金和来自资助的大量间接费用收入，可以支持改善薪酬而不影响个别实验室预算。"
+    },
+    "affordability": {
+      "question": "霍普金斯如何负担得起为研究人员提供更好的薪酬？",
+      "answer": "霍普金斯控制着来自资助的大量间接费用收入，拥有数十亿美元的捐赠基金和大量非限制性储备，并定期报告预算盈余。大学有财务能力改善研究人员的薪酬和工作条件。"
+    },
+    "contract": {
+      "question": "什么是工会合同？",
+      "answer": "工会合同是雇主和员工之间具有法律约束力的协议，确立薪酬、福利和工作条件的最低标准。合同是集体谈判的，必须经工会成员批准（认可）后才能生效。"
+    },
+    "strikes": {
+      "question": "我们必须罢工吗？",
+      "answer": "罢工需要绝大多数成员的授权。许多学术工会在从未罢工的情况下成功谈判了强有力的合同。罢工始终是成员的民主决定。"
+    },
+    "membership": {
+      "question": "我如何成为会员？",
+      "answer": "一旦我们有了批准的合同，你可以通过填写会员授权表并同意支付每月会费来成为会员。会员获得投票权和参与工会治理的全部权利。"
+    },
+    "afterVote": {
+      "question": "投票组建工会后会发生什么？",
+      "step1": "从成员中选举谈判委员会",
+      "step2": "调查成员关于合同谈判优先事项的意见",
+      "step3": "与大学谈判第一份合同",
+      "step4": "将拟议合同带回成员进行批准",
+      "step5": "一旦批准，合同生效"
+    },
+    "learnMore": {
+      "question": "我在哪里可以了解更多？",
+      "item1": "参加<a href=\"https://forms.gle/soJMaRocy4XQvN6q7\" target=\"_blank\" rel=\"noopener noreferrer\">信息说明会</a>",
+      "item2": "填写我们的<a href=\"http://tinyurl.com/ralle-petition\" target=\"_blank\" rel=\"noopener noreferrer\">意向表</a>",
+      "item3": "发邮件给我们：<a href=\"mailto:info@rallejhu.org\">info@rallejhu.org</a>",
+      "item4": "了解<a href=\"https://trujhu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">TRU-UE的经验</a>作为JHU的研究生工作者",
+      "item5": "了解<a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">UE与博士后的工作</a>"
+    },
+    "stillHaveQuestions": {
+      "title": "还有问题？",
+      "attendSession": "参加信息说明会",
+      "emailUs": "给我们发邮件"
+    }
+  }
+}

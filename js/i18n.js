@@ -9,7 +9,7 @@
   const I18n = {
     currentLocale: 'en',
     defaultLocale: 'en',
-    supportedLocales: ['en', 'es-MX'],
+    supportedLocales: ['en', 'es-MX', 'zh-CN'],
     translations: {},
     isReady: false,
 
