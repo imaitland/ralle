@@ -17,9 +17,13 @@
     <div class="container">
       <a href="index.html" class="logo">RALLE</a>
       <nav>
-        <a href="platform.html#platform">Platform</a>
-        <a href="faq.html#faq">FAQ</a>
+        <a href="platform.html#platform" data-i18n="nav.platform">Platform</a>
+        <a href="faq.html#faq" data-i18n="nav.faq">FAQ</a>
       </nav>
+      <div class="lang-switcher">
+        <button data-lang="en" data-i18n="langSwitcher.en">EN</button>
+        <button data-lang="es-MX" data-i18n="langSwitcher.esMX">ES</button>
+      </div>
     </div>
   </header>
 
@@ -32,18 +36,18 @@
         alt="RALLE badge"
         class="hero-badge">
       <div class="container">
-        <h1 id="title">Research and Lab Labor Empowered</h1>
-        <p class="subtitle">We are a movement of research and lab staff at Johns Hopkins University organizing a union to win dignity, respect, and a contract.</p>
+        <h1 id="title" data-i18n="hero.title">Research and Lab Labor Empowered</h1>
+        <p class="subtitle" data-i18n="hero.subtitle">We are a movement of research and lab staff at Johns Hopkins University organizing a union to win dignity, respect, and a contract.</p>
         <div class="cta-group">
-          <a href="http://tinyurl.com/ralle-petition" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Sign the petition</a>
-          <a href="https://forms.gle/soJMaRocy4XQvN6q7" target="_blank" rel="noopener noreferrer" class="btn">Info session</a>
+          <a href="http://tinyurl.com/ralle-petition" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="hero.signPetition">Sign the petition</a>
+          <a href="https://forms.gle/soJMaRocy4XQvN6q7" target="_blank" rel="noopener noreferrer" class="btn" data-i18n="hero.infoSession">Info session</a>
         </div>
       </div>
     </section>
 
     <section id="about">
       <div class="container">
-        <p>In labs and offices across the university, staff workers are an essential part of the world-class research happening at JHU. We are affiliated with <a href="https://www.ueunion.org/" target="_blank" rel="noopener noreferrer">United Electrical, Radio, and Machine Workers (UE)</a>. We share their belief that unions are for everyone and that a member-led and organized union is the best way to achieve wins for workers.</p>
+        <p data-i18n="about.intro" data-i18n-html>In labs and offices across the university, staff workers are an essential part of the world-class research happening at JHU. We are affiliated with <a href="https://www.ueunion.org/" target="_blank" rel="noopener noreferrer">United Electrical, Radio, and Machine Workers (UE)</a>. We share their belief that unions are for everyone and that a member-led and organized union is the best way to achieve wins for workers.</p>
 
         <div id="gallery" class="gallery-container">
           <div class="gallery-page active">
@@ -51,32 +55,38 @@
               src="images/gallery/md/gallery_image_01.jpg"
               srcset="images/gallery/sm/gallery_image_01.jpg 400w, images/gallery/md/gallery_image_01.jpg 800w, images/gallery/lg/gallery_image_01.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
-              alt="RALLE members">
+              alt="RALLE members"
+              data-i18n-title="gallery.members">
             <img
               src="images/gallery/md/gallery_image_02.jpg"
               srcset="images/gallery/sm/gallery_image_02.jpg 400w, images/gallery/md/gallery_image_02.jpg 800w, images/gallery/lg/gallery_image_02.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
-              alt="RALLE event">
+              alt="RALLE event"
+              data-i18n-title="gallery.event">
             <img
               src="images/gallery/md/gallery_image_03.jpg"
               srcset="images/gallery/sm/gallery_image_03.jpg 400w, images/gallery/md/gallery_image_03.jpg 800w, images/gallery/lg/gallery_image_03.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
-              alt="RALLE organizing">
+              alt="RALLE organizing"
+              data-i18n-title="gallery.organizing">
             <img
               src="images/gallery/md/gallery_image_04.jpg"
               srcset="images/gallery/sm/gallery_image_04.jpg 400w, images/gallery/md/gallery_image_04.jpg 800w, images/gallery/lg/gallery_image_04.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
-              alt="RALLE members">
+              alt="RALLE members"
+              data-i18n-title="gallery.members">
             <img
               src="images/gallery/md/gallery_image_05.jpg"
               srcset="images/gallery/sm/gallery_image_05.jpg 400w, images/gallery/md/gallery_image_05.jpg 800w, images/gallery/lg/gallery_image_05.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
-              alt="RALLE event">
+              alt="RALLE event"
+              data-i18n-title="gallery.event">
             <img
               src="images/gallery/md/gallery_image_06.jpg"
               srcset="images/gallery/sm/gallery_image_06.jpg 400w, images/gallery/md/gallery_image_06.jpg 800w, images/gallery/lg/gallery_image_06.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
-              alt="RALLE organizing">
+              alt="RALLE organizing"
+              data-i18n-title="gallery.organizing">
           </div>
           <div class="gallery-page">
             <img
@@ -84,45 +94,51 @@
               srcset="images/gallery/sm/gallery_image_07.jpg 400w, images/gallery/md/gallery_image_07.jpg 800w, images/gallery/lg/gallery_image_07.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
               alt="RALLE members"
+              data-i18n-title="gallery.members"
               loading="lazy">
             <img
               src="images/gallery/md/gallery_image_08.jpg"
               srcset="images/gallery/sm/gallery_image_08.jpg 400w, images/gallery/md/gallery_image_08.jpg 800w, images/gallery/lg/gallery_image_08.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
               alt="RALLE event"
+              data-i18n-title="gallery.event"
               loading="lazy">
             <img
               src="images/gallery/md/gallery_image_09.jpg"
               srcset="images/gallery/sm/gallery_image_09.jpg 400w, images/gallery/md/gallery_image_09.jpg 800w, images/gallery/lg/gallery_image_09.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
               alt="RALLE organizing"
+              data-i18n-title="gallery.organizing"
               loading="lazy">
             <img
               src="images/gallery/md/gallery_image_10.jpg"
               srcset="images/gallery/sm/gallery_image_10.jpg 400w, images/gallery/md/gallery_image_10.jpg 800w, images/gallery/lg/gallery_image_10.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
               alt="RALLE members"
+              data-i18n-title="gallery.members"
               loading="lazy">
             <img
               src="images/gallery/md/gallery_image_11.jpg"
               srcset="images/gallery/sm/gallery_image_11.jpg 400w, images/gallery/md/gallery_image_11.jpg 800w, images/gallery/lg/gallery_image_11.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
               alt="RALLE event"
+              data-i18n-title="gallery.event"
               loading="lazy">
             <img
               src="images/gallery/md/gallery_image_12.jpg"
               srcset="images/gallery/sm/gallery_image_12.jpg 400w, images/gallery/md/gallery_image_12.jpg 800w, images/gallery/lg/gallery_image_12.jpg 1200w"
               sizes="(max-width: 640px) 50vw, 33vw"
               alt="RALLE organizing"
+              data-i18n-title="gallery.organizing"
               loading="lazy">
           </div>
           <div class="gallery-nav">
-            <button class="gallery-nav__btn gallery-nav__prev" aria-label="Previous page" disabled>&larr;</button>
+            <button class="gallery-nav__btn gallery-nav__prev" data-i18n-aria="gallery.prevPage" aria-label="Previous page" disabled>&larr;</button>
             <div class="gallery-nav__dots">
-              <button class="gallery-nav__dot active" aria-label="Page 1" data-page="0"></button>
-              <button class="gallery-nav__dot" aria-label="Page 2" data-page="1"></button>
+              <button class="gallery-nav__dot active" data-i18n-aria="gallery.page1" aria-label="Page 1" data-page="0"></button>
+              <button class="gallery-nav__dot" data-i18n-aria="gallery.page2" aria-label="Page 2" data-page="1"></button>
             </div>
-            <button class="gallery-nav__btn gallery-nav__next" aria-label="Next page">&rarr;</button>
+            <button class="gallery-nav__btn gallery-nav__next" data-i18n-aria="gallery.nextPage" aria-label="Next page">&rarr;</button>
           </div>
         </div>
       </div>
@@ -130,47 +146,47 @@
 
     <section id="why-unionize">
       <div class="container">
-        <h2 id="why">Why unionize?</h2>
-        <p>A union contract guarantees a minimum baseline of compensation, workplace expectations, and protection for research staff members across campuses.</p>
-        <p>Without a contract, the administration does not have to consult us about changes to our labor conditions and can roll back past wins over time.</p>
-        <p>Once you are in a union, there is always somebody there to back you up.</p>
+        <h2 id="why" data-i18n="whyUnionize.title">Why unionize?</h2>
+        <p data-i18n="whyUnionize.p1">A union contract guarantees a minimum baseline of compensation, workplace expectations, and protection for research staff members across campuses.</p>
+        <p data-i18n="whyUnionize.p2">Without a contract, the administration does not have to consult us about changes to our labor conditions and can roll back past wins over time.</p>
+        <p data-i18n="whyUnionize.p3">Once you are in a union, there is always somebody there to back you up.</p>
 
         <div id="stats" class="stat-callout">
-          <div class="number">1,500+</div>
-          <div class="label">face-to-face conversations with research staff members</div>
+          <div class="number" data-i18n="whyUnionize.statNumber">1,500+</div>
+          <div class="label" data-i18n="whyUnionize.statLabel">face-to-face conversations with research staff members</div>
         </div>
       </div>
     </section>
 
     <section id="issues">
       <div class="container">
-        <h2 id="our-issues">Our issues</h2>
-        <p>We've conducted over 1,500 face-to-face conversations with research staff members to learn what matters to us. Here are some of the biggest issues we've heard.</p>
+        <h2 id="our-issues" data-i18n="issues.title">Our issues</h2>
+        <p data-i18n="issues.intro">We've conducted over 1,500 face-to-face conversations with research staff members to learn what matters to us. Here are some of the biggest issues we've heard.</p>
 
         <ul class="issues-list">
-          <li><a href="platform.html#compensation">Fair compensation</a></li>
-          <li><a href="platform.html#career">Transparent career paths</a></li>
-          <li><a href="platform.html#security">Job security and transitional funding</a></li>
-          <li><a href="platform.html#descriptions">Uniform job descriptions</a></li>
-          <li><a href="platform.html#commuter">Commuter benefits</a></li>
-          <li><a href="platform.html#overtime">Overtime pay</a></li>
+          <li><a href="platform.html#compensation" data-i18n="issues.fairCompensation">Fair compensation</a></li>
+          <li><a href="platform.html#career" data-i18n="issues.transparentCareer">Transparent career paths</a></li>
+          <li><a href="platform.html#security" data-i18n="issues.jobSecurity">Job security and transitional funding</a></li>
+          <li><a href="platform.html#descriptions" data-i18n="issues.uniformDescriptions">Uniform job descriptions</a></li>
+          <li><a href="platform.html#commuter" data-i18n="issues.commuterBenefits">Commuter benefits</a></li>
+          <li><a href="platform.html#overtime" data-i18n="issues.overtimePay">Overtime pay</a></li>
         </ul>
 
-        <p class="text-secondary">This is not an exhaustive list. We're fighting to protect all of our current benefits, and for improved tuition remission, retirement benefits, increased support for parents and caregivers, better insurance, and more.</p>
+        <p class="text-secondary" data-i18n="issues.notExhaustive">This is not an exhaustive list. We're fighting to protect all of our current benefits, and for improved tuition remission, retirement benefits, increased support for parents and caregivers, better insurance, and more.</p>
 
-        <a href="platform.html#platform" class="btn">Read our full platform</a>
+        <a href="platform.html#platform" class="btn" data-i18n="issues.readPlatform">Read our full platform</a>
       </div>
     </section>
 
     <section id="get-involved">
       <div class="container">
-        <h2 id="involved">Get involved</h2>
-        <p>Our exact bargaining proposals will be shaped by more input from research staff once we win our union election and are preparing to sit down with the administration. Make your voice heard.</p>
+        <h2 id="involved" data-i18n="getInvolved.title">Get involved</h2>
+        <p data-i18n="getInvolved.intro">Our exact bargaining proposals will be shaped by more input from research staff once we win our union election and are preparing to sit down with the administration. Make your voice heard.</p>
 
         <div class="cta-group">
-          <a href="http://tinyurl.com/ralle-petition" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Sign the petition</a>
-          <a href="https://forms.gle/soJMaRocy4XQvN6q7" target="_blank" rel="noopener noreferrer" class="btn">Attend an info session</a>
-          <a href="mailto:info@rallejhu.org" class="btn">Email us</a>
+          <a href="http://tinyurl.com/ralle-petition" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="getInvolved.signPetition">Sign the petition</a>
+          <a href="https://forms.gle/soJMaRocy4XQvN6q7" target="_blank" rel="noopener noreferrer" class="btn" data-i18n="getInvolved.attendSession">Attend an info session</a>
+          <a href="mailto:info@rallejhu.org" class="btn" data-i18n="getInvolved.emailUs">Email us</a>
         </div>
       </div>
     </section>
@@ -179,16 +195,17 @@
   <footer id="footer">
     <div class="container">
       <div class="footer-links">
-        <a href="platform.html#platform">Platform</a>
-        <a href="faq.html#faq">FAQ</a>
-        <a href="mailto:info@rallejhu.org">Contact</a>
-        <a href="https://www.ueunion.org/" target="_blank" rel="noopener noreferrer">UE Union</a>
+        <a href="platform.html#platform" data-i18n="footer.platform">Platform</a>
+        <a href="faq.html#faq" data-i18n="footer.faq">FAQ</a>
+        <a href="mailto:info@rallejhu.org" data-i18n="footer.contact">Contact</a>
+        <a href="https://www.ueunion.org/" target="_blank" rel="noopener noreferrer" data-i18n="footer.ueUnion">UE Union</a>
       </div>
-      <div class="copyright">RALLE - Research and Lab Labor Empowered</div>
-      <div class="colophon">Colophon: <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Union Gothic</a>, <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Klima</a>, <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Clack</a></div>
+      <div class="copyright" data-i18n="footer.copyright">RALLE - Research and Lab Labor Empowered</div>
+      <div class="colophon" data-i18n="footer.colophon" data-i18n-html>Colophon: <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Union Gothic</a>, <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Klima</a>, <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Clack</a></div>
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

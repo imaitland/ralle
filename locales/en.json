@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "RALLE - Research and Lab Labor Empowered",
+    "description": "RALLE is a movement of research and lab staff at Johns Hopkins University organizing a union for dignity, respect, and a contract."
+  },
+  "nav": {
+    "platform": "Platform",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Research and Lab Labor Empowered",
+    "subtitle": "We are a movement of research and lab staff at Johns Hopkins University organizing a union to win dignity, respect, and a contract.",
+    "signPetition": "Sign the petition",
+    "infoSession": "Info session"
+  },
+  "about": {
+    "intro": "In labs and offices across the university, staff workers are an essential part of the world-class research happening at JHU. We are affiliated with <a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">United Electrical, Radio, and Machine Workers (UE)</a>. We share their belief that unions are for everyone and that a member-led and organized union is the best way to achieve wins for workers."
+  },
+  "gallery": {
+    "prevPage": "Previous page",
+    "nextPage": "Next page",
+    "page1": "Page 1",
+    "page2": "Page 2",
+    "members": "RALLE members",
+    "event": "RALLE event",
+    "organizing": "RALLE organizing"
+  },
+  "whyUnionize": {
+    "title": "Why unionize?",
+    "p1": "A union contract guarantees a minimum baseline of compensation, workplace expectations, and protection for research staff members across campuses.",
+    "p2": "Without a contract, the administration does not have to consult us about changes to our labor conditions and can roll back past wins over time.",
+    "p3": "Once you are in a union, there is always somebody there to back you up.",
+    "statNumber": "1,500+",
+    "statLabel": "face-to-face conversations with research staff members"
+  },
+  "issues": {
+    "title": "Our issues",
+    "intro": "We've conducted over 1,500 face-to-face conversations with research staff members to learn what matters to us. Here are some of the biggest issues we've heard.",
+    "fairCompensation": "Fair compensation",
+    "transparentCareer": "Transparent career paths",
+    "jobSecurity": "Job security and transitional funding",
+    "uniformDescriptions": "Uniform job descriptions",
+    "commuterBenefits": "Commuter benefits",
+    "overtimePay": "Overtime pay",
+    "notExhaustive": "This is not an exhaustive list. We're fighting to protect all of our current benefits, and for improved tuition remission, retirement benefits, increased support for parents and caregivers, better insurance, and more.",
+    "readPlatform": "Read our full platform"
+  },
+  "getInvolved": {
+    "title": "Get involved",
+    "intro": "Our exact bargaining proposals will be shaped by more input from research staff once we win our union election and are preparing to sit down with the administration. Make your voice heard.",
+    "signPetition": "Sign the petition",
+    "attendSession": "Attend an info session",
+    "emailUs": "Email us"
+  },
+  "footer": {
+    "platform": "Platform",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "ueUnion": "UE Union",
+    "copyright": "RALLE - Research and Lab Labor Empowered",
+    "colophon": "Colophon: <a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Union Gothic</a>, <a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Klima</a>, <a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Clack</a>"
+  },
+  "langSwitcher": {
+    "en": "EN",
+    "esMX": "ES"
+  },
+  "platform": {
+    "meta": {
+      "title": "Platform - RALLE",
+      "description": "The issues RALLE is fighting for: fair compensation, transparent career paths, job security, and more."
+    },
+    "title": "Our Platform",
+    "intro": "We've conducted over 1,500 face-to-face conversations with research staff members to learn what matters to us. Here are some of the biggest issues we've heard.",
+    "pageNav": {
+      "compensation": "Compensation",
+      "career": "Career Paths",
+      "security": "Job Security",
+      "descriptions": "Job Descriptions",
+      "commuter": "Commuter",
+      "overtime": "Overtime"
+    },
+    "compensation": {
+      "title": "Fair compensation",
+      "p1": "We deserve annual raises that match the pace of inflation. This year, JHU unilaterally denied cost-of-living increases to staff making above $80,000 and gave a 1.8% increase to staff making below $80,000. Inflation was 2.7%, meaning every research staffer took an effective pay cut.",
+      "p2": "Meanwhile, Ron Daniels' salary rose from $2,358,085 in 2023 to $3,308,178 in 2024; his total compensation, including bonuses, grew by over 8%.",
+      "p3": "We deserve competitive salaries. Lab tech salaries at JHU start $15,000 lower than at our neighbor institution UMB. Similar discrepancies apply to other research staff roles.",
+      "p4": "We deserve salary transparency. Research staff report vast discrepancies between the pay range listed for a position and the pay finally offered by HR.",
+      "p5": "<strong>With an annual budget surplus of over $490 million and a $13 billion endowment, JHU can afford it.</strong>"
+    },
+    "career": {
+      "title": "Transparent career paths",
+      "p1": "We deserve the opportunity to make research at Johns Hopkins into a career. We acquire institutional knowledge and provide essential support to projects and labs. We deserve opportunities to continue advancing in our roles.",
+      "p2": "For the vast majority of research staff, promotions do not follow a regular schedule. Supervisors are often unsure what promotion could be offered next, and face devoting hours of research time to navigating bureaucratic hurdles.",
+      "p3": "Many staff members wait months or even years to hear back from HR once a promotion has been filed for, and receive little to no backpay for the time in which they waited for a promotion to be approved.",
+      "p4": "Promotions are frozen in times of \"austerity.\""
+    },
+    "security": {
+      "title": "Job security and transitional funding",
+      "p1": "We deserve support from JHU in finding a new lab if a project runs out of funding. We bring valuable expertise to our work!",
+      "p2": "We deserve transitional funding, severance pay, and just cause protections against unfair discipline and discharge.",
+      "p3": "Ph.D. workers at JHU won 3 months transitional funding in their union contract. Ph.D. workers won institutional support for finding a new lab while on transitional funding. Ph.D. workers have access to union representation if they are removed from a position without just cause, discriminated against, retaliated against, and more."
+    },
+    "descriptions": {
+      "title": "Uniform job descriptions",
+      "p1": "Many research staff report performing the duties associated with a more advanced job title, often alongside peers doing the same work for more pay.",
+      "p2": "Currently, staff have no meaningful recourse if asked to perform work outside the scope of their job description.",
+      "p3": "Job descriptions protect hybrid work."
+    },
+    "commuter": {
+      "title": "Commuter benefits",
+      "p1": "We deserve affordable parking. Monthly parking costs $120/month on the main medical campus – if you're lucky enough to get a spot. Just this year, Hopkins unilaterally ended discounts on daily employee parking, asking staff to shoulder a 33% increase.",
+      "p2": "For staff working in Maryland, public transit reimbursements max out at $60/month. Many staff members spend more than this each week."
+    },
+    "overtime": {
+      "title": "Overtime pay",
+      "p1": "We are dedicated to our experiments and our research. We deserve pay for every hour worked."
+    },
+    "cta": {
+      "notExhaustive": "This is not an exhaustive list. We're fighting to protect all of our current benefits, and for improved tuition remission, retirement benefits, increased support for parents and caregivers, better insurance, and more.",
+      "bargaining": "Our exact bargaining proposals will be shaped by more input from research staff once we win our union election and are preparing to sit down with the administration.",
+      "signPetition": "Sign the petition",
+      "attendSession": "Attend an info session"
+    }
+  },
+  "faq": {
+    "meta": {
+      "title": "FAQ - RALLE",
+      "description": "Frequently asked questions about RALLE and unionizing at Johns Hopkins University."
+    },
+    "title": "Frequently Asked Questions",
+    "pageNav": {
+      "whatIsRalle": "What is RALLE?",
+      "whoIsUe": "Who is UE?",
+      "whyUnion": "Why a union?",
+      "otherUnions": "Other unions?",
+      "whoCanJoin": "Who can join?",
+      "international": "International",
+      "steps": "Steps",
+      "getInvolved": "Get involved",
+      "retaliation": "Retaliation",
+      "piRelationship": "PI relationship",
+      "fees": "Fees",
+      "labFunding": "Lab funding",
+      "affordability": "Affordability",
+      "contract": "Contract",
+      "strikes": "Strikes",
+      "membership": "Membership",
+      "afterVote": "After the vote",
+      "learnMore": "Learn more"
+    },
+    "whatIsRalle": {
+      "question": "What is RALLE?",
+      "answer": "RALLE (Research and Lab Labor Empowered) is a movement of research and lab staff at Johns Hopkins University organizing a union to win improvements in our working conditions and demand dignity, respect, and a contract. We are affiliated with United Electrical, Radio, and Machine Workers (UE)."
+    },
+    "whoIsUe": {
+      "question": "Who is UE?",
+      "answer": "The <a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">United Electrical, Radio and Machine Workers of America (UE)</a> is a democratic, rank-and-file union with a long history of fighting for workers' rights since the 1930s. UE is known for its member-driven structure and advocacy for social justice. UE represents academic workers across the country and believes that unions are for everyone."
+    },
+    "whyUnion": {
+      "question": "What is a union and why do we need one at JHU?",
+      "answer": "A union gives workers collective bargaining power to negotiate the terms of our employment. Without a union, the university has unilateral control over our salaries, benefits, and working conditions. A union contract guarantees a minimum baseline of compensation, workplace expectations, and protection for research staff members across campuses."
+    },
+    "otherUnions": {
+      "question": "Do other research staff unions exist?",
+      "answer": "Yes! Research staff and postdocs are unionized at many universities including <a href=\"https://www.studentworkersofcolumbia.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Columbia</a>, the <a href=\"https://www.uaw4811.org/\" target=\"_blank\" rel=\"noopener noreferrer\">UC system</a>, <a href=\"https://getup-uaw.org/\" target=\"_blank\" rel=\"noopener noreferrer\">University of Pennsylvania</a>, and <a href=\"https://rutgersaaup.org/our-history/\" target=\"_blank\" rel=\"noopener noreferrer\">Rutgers</a>. There are also other bargaining units at Johns Hopkins. Graduate students at JHU formed <a href=\"https://trujhu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">TRU-UE</a> and successfully negotiated their first contract."
+    },
+    "whoCanJoin": {
+      "question": "Who can join RALLE?",
+      "answer1": "Research staff and lab workers employed by Johns Hopkins University who work on scientific research projects or in research laboratories. This includes lab technicians, research coordinators, and similar positions who are not supervisors or managers.",
+      "answer2": "If you're not sure if you're eligible, we encourage you to sign a card! We will get in touch with you to follow up if needed."
+    },
+    "international": {
+      "question": "Can international workers join?",
+      "answer": "Yes! Section 7 of the National Labor Relations Act (NLRA) protects the organizing rights of all workers regardless of visa status or immigration status. International workers have the same legal rights to organize as citizens and residents."
+    },
+    "steps": {
+      "question": "What are the steps to unionization?",
+      "step1": "Build an organizing team",
+      "step2": "Gather authorization cards from workers",
+      "step3": "Seek recognition from the employer",
+      "step4": "Hold a representation election",
+      "step5": "Elect union leadership",
+      "step6": "Negotiate a contract"
+    },
+    "howToGetInvolved": {
+      "question": "How can I get involved?",
+      "intro": "You can:",
+      "item1": "Fill out our <a href=\"http://tinyurl.com/ralle-petition\" target=\"_blank\" rel=\"noopener noreferrer\">interest form</a> to register your interest",
+      "item2": "Sign up for an <a href=\"https://forms.gle/soJMaRocy4XQvN6q7\" target=\"_blank\" rel=\"noopener noreferrer\">info session</a> to learn more",
+      "item3": "Join the organizing committee to help build the movement",
+      "item4": "Talk to your coworkers about unionizing"
+    },
+    "retaliation": {
+      "question": "Can the university retaliate against workers for unionizing?",
+      "answer": "No. The National Labor Relations Act protects workers' rights to organize and join unions. Retaliation against workers for union activity is illegal. If you experience retaliation, contact the organizing committee immediately."
+    },
+    "piRelationship": {
+      "question": "Will unionizing affect my relationship with my PI or supervisor?",
+      "answer": "The NLRA protects organizing activities from retaliation. Contract negotiations occur with university administration, not individual PIs or supervisors. A union aims to improve working conditions that support high-quality research, not to interfere with the research process or mentor relationships."
+    },
+    "fees": {
+      "question": "Are there membership fees?",
+      "answer": "There are no fees or dues until after a contract has been negotiated and ratified by the membership. Once dues begin, members typically pay a small percentage of gross compensation (usually around 1.4 - 1.5%). These dues fund union operations and support services for members."
+    },
+    "labFunding": {
+      "question": "Will salary increases hurt lab funding or PI grants?",
+      "answer": "Universities like Princeton and MIT have funded stipend increases through institutional budgets rather than burdening individual research labs. Johns Hopkins has substantial resources including a large endowment and significant overhead revenue from grants that can support improved compensation without impacting individual lab budgets."
+    },
+    "affordability": {
+      "question": "How can Hopkins afford better compensation for research staff?",
+      "answer": "Hopkins controls substantial overhead revenue from grants, holds a multi-billion dollar endowment with significant unrestricted reserves, and regularly reports budget surpluses. The university has the financial capacity to improve research staff compensation and working conditions."
+    },
+    "contract": {
+      "question": "What is a union contract?",
+      "answer": "A union contract is a binding legal agreement between the employer and employees that establishes minimum standards for compensation, benefits, and working conditions. The contract is negotiated collectively and must be ratified (approved) by union members before taking effect."
+    },
+    "strikes": {
+      "question": "Will we have to go on strike?",
+      "answer": "Strikes require authorization from a supermajority of members. Many academic unions have successfully negotiated strong contracts without ever going on strike. A strike is always a democratic decision made by the membership."
+    },
+    "membership": {
+      "question": "How do I become a member?",
+      "answer": "Once we have a ratified contract, you can become a member by completing a membership authorization form and agreeing to pay monthly membership dues. Members gain voting rights and full participation in union governance."
+    },
+    "afterVote": {
+      "question": "What happens after we vote to unionize?",
+      "step1": "Elect a bargaining committee from among the membership",
+      "step2": "Survey members about priorities for contract negotiations",
+      "step3": "Negotiate a first contract with the university",
+      "step4": "Bring the proposed contract back to the membership for ratification",
+      "step5": "Once ratified, the contract goes into effect"
+    },
+    "learnMore": {
+      "question": "Where can I learn more?",
+      "item1": "Attend an <a href=\"https://forms.gle/soJMaRocy4XQvN6q7\" target=\"_blank\" rel=\"noopener noreferrer\">info session</a>",
+      "item2": "Fill out our <a href=\"http://tinyurl.com/ralle-petition\" target=\"_blank\" rel=\"noopener noreferrer\">interest form</a>",
+      "item3": "Email us at <a href=\"mailto:info@rallejhu.org\">info@rallejhu.org</a>",
+      "item4": "Check out <a href=\"https://trujhu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">TRU-UE's experience</a> as graduate workers at JHU",
+      "item5": "Learn about <a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">UE's work with postdocs</a>"
+    },
+    "stillHaveQuestions": {
+      "title": "Still have questions?",
+      "attendSession": "Attend an info session",
+      "emailUs": "Email us"
+    }
+  }
+}

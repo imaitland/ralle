@@ -656,3 +656,51 @@ footer .container {
     display: none;
   }
 }
+
+/* i18n FOUC Prevention */
+html:not([data-i18n-ready]) body {
+  opacity: 0;
+}
+
+html[data-i18n-ready] body {
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}
+
+/* Language Switcher */
+.lang-switcher {
+  display: flex;
+  gap: 0.25rem;
+  margin-left: 1.5rem;
+}
+
+.lang-switcher button {
+  padding: 0.25rem 0.5rem;
+  font-family: var(--font-nav);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.lang-switcher button:hover {
+  border-color: var(--text);
+  color: var(--text);
+}
+
+.lang-switcher button.active {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--bg);
+}
+
+@media (max-width: 640px) {
+  .lang-switcher {
+    margin-left: 1rem;
+  }
+}

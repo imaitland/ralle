@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "RALLE - Investigación y Trabajo de Laboratorio Empoderados",
+    "description": "RALLE es un movimiento de personal de investigación y laboratorio en la Universidad Johns Hopkins que organiza un sindicato por dignidad, respeto y un contrato."
+  },
+  "nav": {
+    "platform": "Plataforma",
+    "faq": "Preguntas"
+  },
+  "hero": {
+    "title": "Investigación y Trabajo de Laboratorio Empoderados",
+    "subtitle": "Somos un movimiento de personal de investigación y laboratorio en la Universidad Johns Hopkins organizando un sindicato para ganar dignidad, respeto y un contrato.",
+    "signPetition": "Firma la petición",
+    "infoSession": "Sesión informativa"
+  },
+  "about": {
+    "intro": "En laboratorios y oficinas de toda la universidad, los trabajadores son una parte esencial de la investigación de clase mundial que se realiza en JHU. Estamos afiliados a <a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">United Electrical, Radio, and Machine Workers (UE)</a>. Compartimos su creencia de que los sindicatos son para todos y que un sindicato liderado y organizado por sus miembros es la mejor manera de lograr victorias para los trabajadores."
+  },
+  "gallery": {
+    "prevPage": "Página anterior",
+    "nextPage": "Página siguiente",
+    "page1": "Página 1",
+    "page2": "Página 2",
+    "members": "Miembros de RALLE",
+    "event": "Evento de RALLE",
+    "organizing": "Organización de RALLE"
+  },
+  "whyUnionize": {
+    "title": "¿Por qué sindicalizarse?",
+    "p1": "Un contrato sindical garantiza un mínimo de compensación, expectativas laborales y protección para el personal de investigación en todos los campus.",
+    "p2": "Sin un contrato, la administración no tiene que consultarnos sobre cambios en nuestras condiciones laborales y puede revertir logros anteriores con el tiempo.",
+    "p3": "Una vez que estás en un sindicato, siempre hay alguien que te respalda.",
+    "statNumber": "1,500+",
+    "statLabel": "conversaciones cara a cara con miembros del personal de investigación"
+  },
+  "issues": {
+    "title": "Nuestros temas",
+    "intro": "Hemos realizado más de 1,500 conversaciones cara a cara con miembros del personal de investigación para conocer lo que nos importa. Estos son algunos de los temas más importantes que hemos escuchado.",
+    "fairCompensation": "Compensación justa",
+    "transparentCareer": "Trayectorias profesionales transparentes",
+    "jobSecurity": "Seguridad laboral y financiamiento de transición",
+    "uniformDescriptions": "Descripciones de trabajo uniformes",
+    "commuterBenefits": "Beneficios de transporte",
+    "overtimePay": "Pago de horas extra",
+    "notExhaustive": "Esta no es una lista exhaustiva. Estamos luchando por proteger todos nuestros beneficios actuales, y por mejor reembolso de matrícula, beneficios de jubilación, mayor apoyo para padres y cuidadores, mejor seguro y más.",
+    "readPlatform": "Lee nuestra plataforma completa"
+  },
+  "getInvolved": {
+    "title": "Participa",
+    "intro": "Nuestras propuestas exactas de negociación serán moldeadas por más aportaciones del personal de investigación una vez que ganemos nuestra elección sindical y nos preparemos para sentarnos con la administración. Haz que tu voz sea escuchada.",
+    "signPetition": "Firma la petición",
+    "attendSession": "Asiste a una sesión informativa",
+    "emailUs": "Escríbenos"
+  },
+  "footer": {
+    "platform": "Plataforma",
+    "faq": "Preguntas",
+    "contact": "Contacto",
+    "ueUnion": "Sindicato UE",
+    "copyright": "RALLE - Investigación y Trabajo de Laboratorio Empoderados",
+    "colophon": "Tipografías: <a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Union Gothic</a>, <a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Klima</a>, <a href=\"https://wehtt.am/fonts/\" target=\"_blank\" rel=\"noopener noreferrer\">Clack</a>"
+  },
+  "langSwitcher": {
+    "en": "EN",
+    "esMX": "ES"
+  },
+  "platform": {
+    "meta": {
+      "title": "Plataforma - RALLE",
+      "description": "Los temas por los que RALLE lucha: compensación justa, trayectorias profesionales transparentes, seguridad laboral y más."
+    },
+    "title": "Nuestra Plataforma",
+    "intro": "Hemos realizado más de 1,500 conversaciones cara a cara con miembros del personal de investigación para conocer lo que nos importa. Estos son algunos de los temas más importantes que hemos escuchado.",
+    "pageNav": {
+      "compensation": "Compensación",
+      "career": "Carrera",
+      "security": "Seguridad",
+      "descriptions": "Descripciones",
+      "commuter": "Transporte",
+      "overtime": "Horas Extra"
+    },
+    "compensation": {
+      "title": "Compensación justa",
+      "p1": "Merecemos aumentos anuales que igualen el ritmo de la inflación. Este año, JHU negó unilateralmente aumentos por costo de vida al personal que gana más de $80,000 y dio un aumento del 1.8% al personal que gana menos de $80,000. La inflación fue del 2.7%, lo que significa que todo el personal de investigación tuvo un recorte salarial efectivo.",
+      "p2": "Mientras tanto, el salario de Ron Daniels aumentó de $2,358,085 en 2023 a $3,308,178 en 2024; su compensación total, incluyendo bonos, creció más del 8%.",
+      "p3": "Merecemos salarios competitivos. Los salarios de técnicos de laboratorio en JHU comienzan $15,000 más bajos que en nuestra institución vecina UMB. Discrepancias similares aplican a otros roles de personal de investigación.",
+      "p4": "Merecemos transparencia salarial. El personal de investigación reporta grandes discrepancias entre el rango salarial listado para un puesto y el salario finalmente ofrecido por Recursos Humanos.",
+      "p5": "<strong>Con un superávit presupuestario anual de más de $490 millones y una dotación de $13 mil millones, JHU puede pagarlo.</strong>"
+    },
+    "career": {
+      "title": "Trayectorias profesionales transparentes",
+      "p1": "Merecemos la oportunidad de hacer de la investigación en Johns Hopkins una carrera. Adquirimos conocimiento institucional y proporcionamos apoyo esencial a proyectos y laboratorios. Merecemos oportunidades para seguir avanzando en nuestros roles.",
+      "p2": "Para la gran mayoría del personal de investigación, las promociones no siguen un calendario regular. Los supervisores a menudo no están seguros de qué promoción podría ofrecerse a continuación y enfrentan dedicar horas de tiempo de investigación a navegar obstáculos burocráticos.",
+      "p3": "Muchos miembros del personal esperan meses o incluso años para recibir respuesta de Recursos Humanos una vez que se ha solicitado una promoción, y reciben poco o ningún pago retroactivo por el tiempo que esperaron a que se aprobara la promoción.",
+      "p4": "Las promociones se congelan en tiempos de \"austeridad\"."
+    },
+    "security": {
+      "title": "Seguridad laboral y financiamiento de transición",
+      "p1": "Merecemos apoyo de JHU para encontrar un nuevo laboratorio si un proyecto se queda sin financiamiento. ¡Aportamos experiencia valiosa a nuestro trabajo!",
+      "p2": "Merecemos financiamiento de transición, indemnización por despido y protecciones de causa justa contra disciplina y despido injustos.",
+      "p3": "Los trabajadores de doctorado en JHU ganaron 3 meses de financiamiento de transición en su contrato sindical. Los trabajadores de doctorado ganaron apoyo institucional para encontrar un nuevo laboratorio mientras están en financiamiento de transición. Los trabajadores de doctorado tienen acceso a representación sindical si son removidos de un puesto sin causa justa, discriminados, objeto de represalias y más."
+    },
+    "descriptions": {
+      "title": "Descripciones de trabajo uniformes",
+      "p1": "Muchos miembros del personal de investigación reportan realizar las funciones asociadas con un título de trabajo más avanzado, a menudo junto a compañeros haciendo el mismo trabajo por más pago.",
+      "p2": "Actualmente, el personal no tiene recurso significativo si se le pide realizar trabajo fuera del alcance de su descripción de trabajo.",
+      "p3": "Las descripciones de trabajo protegen el trabajo híbrido."
+    },
+    "commuter": {
+      "title": "Beneficios de transporte",
+      "p1": "Merecemos estacionamiento accesible. El estacionamiento mensual cuesta $120/mes en el campus médico principal – si tienes la suerte de conseguir un lugar. Este año, Hopkins terminó unilateralmente los descuentos en estacionamiento diario para empleados, pidiendo al personal que asuma un aumento del 33%.",
+      "p2": "Para el personal que trabaja en Maryland, los reembolsos de transporte público tienen un máximo de $60/mes. Muchos miembros del personal gastan más que esto cada semana."
+    },
+    "overtime": {
+      "title": "Pago de horas extra",
+      "p1": "Estamos dedicados a nuestros experimentos y nuestra investigación. Merecemos pago por cada hora trabajada."
+    },
+    "cta": {
+      "notExhaustive": "Esta no es una lista exhaustiva. Estamos luchando por proteger todos nuestros beneficios actuales, y por mejor reembolso de matrícula, beneficios de jubilación, mayor apoyo para padres y cuidadores, mejor seguro y más.",
+      "bargaining": "Nuestras propuestas exactas de negociación serán moldeadas por más aportaciones del personal de investigación una vez que ganemos nuestra elección sindical y nos preparemos para sentarnos con la administración.",
+      "signPetition": "Firma la petición",
+      "attendSession": "Asiste a una sesión informativa"
+    }
+  },
+  "faq": {
+    "meta": {
+      "title": "Preguntas Frecuentes - RALLE",
+      "description": "Preguntas frecuentes sobre RALLE y la sindicalización en la Universidad Johns Hopkins."
+    },
+    "title": "Preguntas Frecuentes",
+    "pageNav": {
+      "whatIsRalle": "¿Qué es RALLE?",
+      "whoIsUe": "¿Quién es UE?",
+      "whyUnion": "¿Por qué un sindicato?",
+      "otherUnions": "¿Otros sindicatos?",
+      "whoCanJoin": "¿Quién puede unirse?",
+      "international": "Internacional",
+      "steps": "Pasos",
+      "getInvolved": "Participa",
+      "retaliation": "Represalias",
+      "piRelationship": "Relación con PI",
+      "fees": "Cuotas",
+      "labFunding": "Fondos del lab",
+      "affordability": "Asequibilidad",
+      "contract": "Contrato",
+      "strikes": "Huelgas",
+      "membership": "Membresía",
+      "afterVote": "Después del voto",
+      "learnMore": "Más información"
+    },
+    "whatIsRalle": {
+      "question": "¿Qué es RALLE?",
+      "answer": "RALLE (Research and Lab Labor Empowered) es un movimiento de personal de investigación y laboratorio en la Universidad Johns Hopkins organizando un sindicato para ganar mejoras en nuestras condiciones de trabajo y exigir dignidad, respeto y un contrato. Estamos afiliados a United Electrical, Radio, and Machine Workers (UE)."
+    },
+    "whoIsUe": {
+      "question": "¿Quién es UE?",
+      "answer": "La <a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">United Electrical, Radio and Machine Workers of America (UE)</a> es un sindicato democrático de base con una larga historia de lucha por los derechos de los trabajadores desde la década de 1930. UE es conocido por su estructura impulsada por los miembros y su defensa de la justicia social. UE representa a trabajadores académicos en todo el país y cree que los sindicatos son para todos."
+    },
+    "whyUnion": {
+      "question": "¿Qué es un sindicato y por qué necesitamos uno en JHU?",
+      "answer": "Un sindicato da a los trabajadores poder de negociación colectiva para negociar los términos de nuestro empleo. Sin un sindicato, la universidad tiene control unilateral sobre nuestros salarios, beneficios y condiciones de trabajo. Un contrato sindical garantiza un mínimo de compensación, expectativas laborales y protección para el personal de investigación en todos los campus."
+    },
+    "otherUnions": {
+      "question": "¿Existen otros sindicatos de personal de investigación?",
+      "answer": "¡Sí! El personal de investigación y los postdocs están sindicalizados en muchas universidades incluyendo <a href=\"https://www.studentworkersofcolumbia.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Columbia</a>, el <a href=\"https://www.uaw4811.org/\" target=\"_blank\" rel=\"noopener noreferrer\">sistema UC</a>, <a href=\"https://getup-uaw.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Universidad de Pennsylvania</a> y <a href=\"https://rutgersaaup.org/our-history/\" target=\"_blank\" rel=\"noopener noreferrer\">Rutgers</a>. También hay otras unidades de negociación en Johns Hopkins. Los estudiantes de posgrado en JHU formaron <a href=\"https://trujhu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">TRU-UE</a> y negociaron exitosamente su primer contrato."
+    },
+    "whoCanJoin": {
+      "question": "¿Quién puede unirse a RALLE?",
+      "answer1": "Personal de investigación y trabajadores de laboratorio empleados por la Universidad Johns Hopkins que trabajan en proyectos de investigación científica o en laboratorios de investigación. Esto incluye técnicos de laboratorio, coordinadores de investigación y puestos similares que no son supervisores o gerentes.",
+      "answer2": "Si no estás seguro de si eres elegible, ¡te animamos a firmar una tarjeta! Nos pondremos en contacto contigo para dar seguimiento si es necesario."
+    },
+    "international": {
+      "question": "¿Pueden unirse los trabajadores internacionales?",
+      "answer": "¡Sí! La Sección 7 de la Ley Nacional de Relaciones Laborales (NLRA) protege los derechos de organización de todos los trabajadores independientemente de su estatus de visa o estatus migratorio. Los trabajadores internacionales tienen los mismos derechos legales para organizarse que los ciudadanos y residentes."
+    },
+    "steps": {
+      "question": "¿Cuáles son los pasos para la sindicalización?",
+      "step1": "Formar un equipo organizador",
+      "step2": "Recoger tarjetas de autorización de los trabajadores",
+      "step3": "Buscar reconocimiento del empleador",
+      "step4": "Realizar una elección de representación",
+      "step5": "Elegir el liderazgo sindical",
+      "step6": "Negociar un contrato"
+    },
+    "howToGetInvolved": {
+      "question": "¿Cómo puedo participar?",
+      "intro": "Puedes:",
+      "item1": "Llenar nuestro <a href=\"http://tinyurl.com/ralle-petition\" target=\"_blank\" rel=\"noopener noreferrer\">formulario de interés</a> para registrar tu interés",
+      "item2": "Inscribirte a una <a href=\"https://forms.gle/soJMaRocy4XQvN6q7\" target=\"_blank\" rel=\"noopener noreferrer\">sesión informativa</a> para aprender más",
+      "item3": "Unirte al comité organizador para ayudar a construir el movimiento",
+      "item4": "Hablar con tus compañeros de trabajo sobre sindicalizarse"
+    },
+    "retaliation": {
+      "question": "¿Puede la universidad tomar represalias contra los trabajadores por sindicalizarse?",
+      "answer": "No. La Ley Nacional de Relaciones Laborales protege los derechos de los trabajadores a organizarse y unirse a sindicatos. Las represalias contra trabajadores por actividad sindical son ilegales. Si experimentas represalias, contacta al comité organizador inmediatamente."
+    },
+    "piRelationship": {
+      "question": "¿Afectará la sindicalización mi relación con mi PI o supervisor?",
+      "answer": "La NLRA protege las actividades de organización de represalias. Las negociaciones de contrato ocurren con la administración de la universidad, no con PIs o supervisores individuales. Un sindicato busca mejorar las condiciones de trabajo que apoyan la investigación de alta calidad, no interferir con el proceso de investigación o las relaciones de mentoría."
+    },
+    "fees": {
+      "question": "¿Hay cuotas de membresía?",
+      "answer": "No hay cuotas hasta después de que un contrato haya sido negociado y ratificado por los miembros. Una vez que comienzan las cuotas, los miembros típicamente pagan un pequeño porcentaje de la compensación bruta (usualmente alrededor del 1.4 - 1.5%). Estas cuotas financian las operaciones del sindicato y los servicios de apoyo para los miembros."
+    },
+    "labFunding": {
+      "question": "¿Los aumentos salariales afectarán los fondos del laboratorio o las becas de los PI?",
+      "answer": "Universidades como Princeton y MIT han financiado aumentos de estipendios a través de presupuestos institucionales en lugar de cargar a los laboratorios de investigación individuales. Johns Hopkins tiene recursos sustanciales incluyendo una gran dotación e ingresos significativos por gastos indirectos de becas que pueden apoyar una mejor compensación sin impactar los presupuestos de laboratorios individuales."
+    },
+    "affordability": {
+      "question": "¿Cómo puede Hopkins pagar mejor compensación para el personal de investigación?",
+      "answer": "Hopkins controla ingresos sustanciales por gastos indirectos de becas, tiene una dotación de miles de millones de dólares con reservas significativas sin restricciones, y regularmente reporta superávits presupuestarios. La universidad tiene la capacidad financiera para mejorar la compensación y las condiciones de trabajo del personal de investigación."
+    },
+    "contract": {
+      "question": "¿Qué es un contrato sindical?",
+      "answer": "Un contrato sindical es un acuerdo legal vinculante entre el empleador y los empleados que establece estándares mínimos para compensación, beneficios y condiciones de trabajo. El contrato se negocia colectivamente y debe ser ratificado (aprobado) por los miembros del sindicato antes de entrar en vigor."
+    },
+    "strikes": {
+      "question": "¿Tendremos que ir a huelga?",
+      "answer": "Las huelgas requieren autorización de una supermayoría de miembros. Muchos sindicatos académicos han negociado exitosamente contratos sólidos sin nunca ir a huelga. Una huelga es siempre una decisión democrática tomada por los miembros."
+    },
+    "membership": {
+      "question": "¿Cómo me convierto en miembro?",
+      "answer": "Una vez que tengamos un contrato ratificado, puedes convertirte en miembro completando un formulario de autorización de membresía y aceptando pagar cuotas mensuales de membresía. Los miembros obtienen derechos de voto y participación plena en la gobernanza del sindicato."
+    },
+    "afterVote": {
+      "question": "¿Qué pasa después de que votemos para sindicalizarnos?",
+      "step1": "Elegir un comité de negociación de entre los miembros",
+      "step2": "Encuestar a los miembros sobre prioridades para las negociaciones del contrato",
+      "step3": "Negociar un primer contrato con la universidad",
+      "step4": "Llevar el contrato propuesto de vuelta a los miembros para ratificación",
+      "step5": "Una vez ratificado, el contrato entra en vigor"
+    },
+    "learnMore": {
+      "question": "¿Dónde puedo aprender más?",
+      "item1": "Asiste a una <a href=\"https://forms.gle/soJMaRocy4XQvN6q7\" target=\"_blank\" rel=\"noopener noreferrer\">sesión informativa</a>",
+      "item2": "Llena nuestro <a href=\"http://tinyurl.com/ralle-petition\" target=\"_blank\" rel=\"noopener noreferrer\">formulario de interés</a>",
+      "item3": "Escríbenos a <a href=\"mailto:info@rallejhu.org\">info@rallejhu.org</a>",
+      "item4": "Conoce <a href=\"https://trujhu.org/\" target=\"_blank\" rel=\"noopener noreferrer\">la experiencia de TRU-UE</a> como trabajadores graduados en JHU",
+      "item5": "Aprende sobre <a href=\"https://www.ueunion.org/\" target=\"_blank\" rel=\"noopener noreferrer\">el trabajo de UE con postdocs</a>"
+    },
+    "stillHaveQuestions": {
+      "title": "¿Todavía tienes preguntas?",
+      "attendSession": "Asiste a una sesión informativa",
+      "emailUs": "Escríbenos"
+    }
+  }
+}
