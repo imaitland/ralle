@@ -87,7 +87,8 @@
         });
       },
       {
-        rootMargin: '-30% 0px -70% 0px',
+        // Account for sticky header (~6rem = 96px) plus buffer
+        rootMargin: '-120px 0px -60% 0px',
         threshold: 0
       }
     );
