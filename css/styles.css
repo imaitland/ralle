@@ -236,7 +236,7 @@ nav a.active {
   right: max(1.5rem, calc(50% - 360px + 1.5rem));
   width: clamp(80px, 12vw, 140px);
   height: auto;
-  transform: rotate(30deg);
+  transform: rotate(-10deg);
   filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.15));
   z-index: 10;
   pointer-events: none;
