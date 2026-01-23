@@ -558,7 +558,7 @@ footer .container {
     top: 0.5rem;
     right: 1.5rem;
     width: 60px;
-    transform: rotate(25deg);
+    transform: rotate(-10deg);
   }
 
   .hero h1 {
