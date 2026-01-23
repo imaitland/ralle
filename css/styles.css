@@ -141,6 +141,17 @@ a:hover {
   color: var(--link-hover);
 }
 
+/* External links - distinct style for off-site references */
+a.external {
+  text-decoration: none;
+  border-bottom: 2px solid gold;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a.external:hover {
+  border-color: var(--accent);
+}
+
 /* Offset anchors for sticky header */
 [id] {
   scroll-margin-top: 6rem;
