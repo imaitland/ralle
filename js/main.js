@@ -52,6 +52,7 @@
     if (!grid || !sentinel) return;
 
     const totalImages = 74;
+    const excludedImages = [9];
     const batchSize = 5;
     let loaded = 0;
     const prefetchCache = new Map();
@@ -130,7 +131,7 @@
     function prefetchBatch(start, count) {
       var end = Math.min(start + count, totalImages);
       for (var i = start + 1; i <= end; i++) {
-        if (!prefetchCache.has(i)) {
+        if (excludedImages.indexOf(i) === -1 && !prefetchCache.has(i)) {
           var img = new Image();
           img.srcset = [
             'images/testimonials/sm/' + i + '.png 240w',
@@ -154,25 +155,27 @@
     function loadBatch() {
       if (loaded >= totalImages) return;
 
-      var end = Math.min(loaded + batchSize, totalImages);
       var images = [];
+      var count = 0;
 
-      // Create and append all images with blurred placeholders
-      for (var i = loaded + 1; i <= end; i++) {
-        var elements = createImageElement(i);
-        grid.appendChild(elements.wrapper);
-        images.push(elements.img);
+      // Create and append images with blurred placeholders, skipping excluded
+      while (count < batchSize && loaded < totalImages) {
+        loaded++;
+        if (excludedImages.indexOf(loaded) === -1) {
+          var elements = createImageElement(loaded);
+          grid.appendChild(elements.wrapper);
+          images.push(elements.img);
+          count++;
+        }
       }
 
       // Upgrade all images in parallel
       Promise.all(images.map(upgradeImage)).then(function() {
         // Prefetch next batch after current batch loads
-        if (end < totalImages) {
-          prefetchBatch(end, batchSize);
+        if (loaded < totalImages) {
+          prefetchBatch(loaded, batchSize);
         }
       });
-
-      loaded = end;
     }
 
     // Initial load
