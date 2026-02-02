@@ -29,7 +29,6 @@ Pushes to `master` automatically deploy to GitHub Pages via `.github/workflows/d
 
 ## Links
 
-- [Sign the petition](http://tinyurl.com/ralle-petition)
 - [Info sessions](https://forms.gle/soJMaRocy4XQvN6q7)
 - [Contact](mailto:info@rallejhu.org)
 - [UE Union](https://www.ueunion.org/)
