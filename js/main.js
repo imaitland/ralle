@@ -45,33 +45,133 @@
     });
   }
 
-  // Testimonials infinite scroll
+  // Testimonials infinite scroll with LQIP blur-up
   function initTestimonialsGrid() {
     const grid = document.getElementById('testimonials-grid');
     const sentinel = document.getElementById('testimonials-sentinel');
     if (!grid || !sentinel) return;
 
     const totalImages = 74;
-    const batchSize = 12;
+    const batchSize = 5;
     let loaded = 0;
+    const prefetchCache = new Map();
+
+    // Create image element with wrapper and blurred xs placeholder
+    function createImageElement(index) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'testimonial-item';
+
+      const img = document.createElement('img');
+      img.src = 'images/testimonials/xs/' + index + '.png';
+      img.alt = 'RALLE supporter';
+      img.className = 'testimonial-img testimonial-img--loading';
+      img.dataset.index = index;
+
+      wrapper.appendChild(img);
+      return { wrapper: wrapper, img: img };
+    }
+
+    // Upgrade image from xs placeholder to full srcset
+    function upgradeImage(img) {
+      var index = img.dataset.index;
+      return new Promise(function(resolve) {
+        var fullImg = new Image();
+        fullImg.srcset = [
+          'images/testimonials/sm/' + index + '.png 240w',
+          'images/testimonials/md/' + index + '.png 360w',
+          'images/testimonials/lg/' + index + '.png 480w'
+        ].join(', ');
+        fullImg.sizes = '(max-width: 640px) 50vw, 33vw';
+        fullImg.src = 'images/testimonials/md/' + index + '.png';
+
+        var onLoad = function() {
+          if (fullImg.decode) {
+            fullImg.decode().then(function() {
+              img.srcset = fullImg.srcset;
+              img.sizes = fullImg.sizes;
+              img.src = fullImg.src;
+              img.classList.remove('testimonial-img--loading');
+              img.classList.add('testimonial-img--loaded');
+              resolve();
+            }).catch(function() {
+              // Fallback if decode fails
+              img.srcset = fullImg.srcset;
+              img.sizes = fullImg.sizes;
+              img.src = fullImg.src;
+              img.classList.remove('testimonial-img--loading');
+              img.classList.add('testimonial-img--loaded');
+              resolve();
+            });
+          } else {
+            // Fallback for browsers without decode()
+            img.srcset = fullImg.srcset;
+            img.sizes = fullImg.sizes;
+            img.src = fullImg.src;
+            img.classList.remove('testimonial-img--loading');
+            img.classList.add('testimonial-img--loaded');
+            resolve();
+          }
+        };
+
+        if (fullImg.complete) {
+          onLoad();
+        } else {
+          fullImg.onload = onLoad;
+          fullImg.onerror = function() {
+            img.classList.remove('testimonial-img--loading');
+            img.classList.add('testimonial-img--loaded');
+            resolve();
+          };
+        }
+      });
+    }
+
+    // Prefetch next batch into memory
+    function prefetchBatch(start, count) {
+      var end = Math.min(start + count, totalImages);
+      for (var i = start + 1; i <= end; i++) {
+        if (!prefetchCache.has(i)) {
+          var img = new Image();
+          img.srcset = [
+            'images/testimonials/sm/' + i + '.png 240w',
+            'images/testimonials/md/' + i + '.png 360w',
+            'images/testimonials/lg/' + i + '.png 480w'
+          ].join(', ');
+          img.sizes = '(max-width: 640px) 50vw, 33vw';
+          img.src = 'images/testimonials/md/' + i + '.png';
+          prefetchCache.set(i, img);
+        }
+      }
+      // Clear old entries to limit cache size
+      if (prefetchCache.size > batchSize * 2) {
+        var keys = Array.from(prefetchCache.keys());
+        for (var j = 0; j < keys.length - batchSize * 2; j++) {
+          prefetchCache.delete(keys[j]);
+        }
+      }
+    }
 
     function loadBatch() {
       if (loaded >= totalImages) return;
 
-      const end = Math.min(loaded + batchSize, totalImages);
-      for (let i = loaded + 1; i <= end; i++) {
-        const img = document.createElement('img');
-        img.src = 'images/testimonials/md/' + i + '.png';
-        img.srcset = [
-          'images/testimonials/sm/' + i + '.png 240w',
-          'images/testimonials/md/' + i + '.png 360w',
-          'images/testimonials/lg/' + i + '.png 480w'
-        ].join(', ');
-        img.sizes = '(max-width: 640px) 50vw, 33vw';
-        img.alt = 'RALLE supporter';
-        img.loading = 'lazy';
-        grid.appendChild(img);
+      var end = Math.min(loaded + batchSize, totalImages);
+      var images = [];
+
+      // Create and append all images with blurred placeholders
+      for (var i = loaded + 1; i <= end; i++) {
+        var elements = createImageElement(i);
+        grid.appendChild(elements.wrapper);
+        images.push(elements.img);
       }
+
+      // Upgrade all images in parallel
+      Promise.all(images.map(upgradeImage)).then(function() {
+        // Prefetch next batch after current batch loads
+        if (end < totalImages) {
+          prefetchBatch(end, batchSize);
+        }
+      });
+
       loaded = end;
     }
 
@@ -79,7 +179,7 @@
     loadBatch();
 
     // Infinite scroll with Intersection Observer
-    const observer = new IntersectionObserver(function(entries) {
+    var observer = new IntersectionObserver(function(entries) {
       if (entries[0].isIntersecting && loaded < totalImages) {
         loadBatch();
       }
