@@ -45,8 +45,52 @@
     });
   }
 
+  // Testimonials infinite scroll
+  function initTestimonialsGrid() {
+    const grid = document.getElementById('testimonials-grid');
+    const sentinel = document.getElementById('testimonials-sentinel');
+    if (!grid || !sentinel) return;
+
+    const totalImages = 74;
+    const batchSize = 12;
+    let loaded = 0;
+
+    function loadBatch() {
+      if (loaded >= totalImages) return;
+
+      const end = Math.min(loaded + batchSize, totalImages);
+      for (let i = loaded + 1; i <= end; i++) {
+        const img = document.createElement('img');
+        img.src = 'images/testimonials/md/' + i + '.png';
+        img.srcset = [
+          'images/testimonials/sm/' + i + '.png 240w',
+          'images/testimonials/md/' + i + '.png 360w',
+          'images/testimonials/lg/' + i + '.png 480w'
+        ].join(', ');
+        img.sizes = '(max-width: 640px) 50vw, 33vw';
+        img.alt = 'RALLE supporter';
+        img.loading = 'lazy';
+        grid.appendChild(img);
+      }
+      loaded = end;
+    }
+
+    // Initial load
+    loadBatch();
+
+    // Infinite scroll with Intersection Observer
+    const observer = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting && loaded < totalImages) {
+        loadBatch();
+      }
+    }, { rootMargin: '200px' });
+
+    observer.observe(sentinel);
+  }
+
   // Initialize on DOM ready
   document.addEventListener('DOMContentLoaded', function() {
     initGallery();
+    initTestimonialsGrid();
   });
 })();
