@@ -53,7 +53,7 @@
 
     const totalImages = 74;
     const excludedImages = [9];
-    const batchSize = 5;
+    const batchSize = 6;
     let loaded = 0;
     const prefetchCache = new Map();
 
@@ -171,24 +171,16 @@
 
       // Upgrade all images in parallel
       Promise.all(images.map(upgradeImage)).then(function() {
-        // Prefetch next batch after current batch loads
+        // Prefetch next batch and auto-load after current batch finishes
         if (loaded < totalImages) {
           prefetchBatch(loaded, batchSize);
+          loadBatch();
         }
       });
     }
 
-    // Initial load
+    // Start auto-loading all batches
     loadBatch();
-
-    // Infinite scroll with Intersection Observer
-    var observer = new IntersectionObserver(function(entries) {
-      if (entries[0].isIntersecting && loaded < totalImages) {
-        loadBatch();
-      }
-    }, { rootMargin: '200px' });
-
-    observer.observe(sentinel);
   }
 
   // Initialize on DOM ready
