@@ -599,6 +599,24 @@ footer .container {
     font-size: 16px;
   }
 
+  .container {
+    padding: 0 1rem;
+  }
+
+  .logo {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+
+  nav {
+    gap: 0.5rem;
+  }
+
+  nav a {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
   .hero-badge {
     top: 0.5rem;
     right: 1.5rem;
@@ -617,10 +635,6 @@ footer .container {
   .gallery-page {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-  }
-
-  nav {
-    gap: 1rem;
   }
 
   footer .container {
