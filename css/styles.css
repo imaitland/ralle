@@ -223,6 +223,11 @@ nav a.active {
   color: var(--text);
 }
 
+nav a.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 /* Hero */
 .hero {
   position: relative;
