@@ -485,9 +485,23 @@ section:last-of-type {
 
 /* Stats callout */
 .stat-callout {
+  display: block;
   background: var(--bg-alt);
   padding: 2rem;
   margin: 2rem 0 0;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.stat-callout:hover {
+  background: var(--text);
+  color: var(--bg);
+  transform: translateY(-2px);
+}
+
+.stat-callout:hover .label {
+  color: var(--bg);
 }
 
 .stat-callout .number {
