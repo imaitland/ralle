@@ -88,6 +88,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
 }
 
 body {
@@ -221,6 +222,11 @@ nav a {
 nav a:hover,
 nav a.active {
   color: var(--text);
+}
+
+nav a.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* Hero */
@@ -485,9 +491,23 @@ section:last-of-type {
 
 /* Stats callout */
 .stat-callout {
+  display: block;
   background: var(--bg-alt);
   padding: 2rem;
   margin: 2rem 0 0;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.stat-callout:hover {
+  background: var(--text);
+  color: var(--bg);
+  transform: translateY(-2px);
+}
+
+.stat-callout:hover .label {
+  color: var(--bg);
 }
 
 .stat-callout .number {
@@ -579,6 +599,24 @@ footer .container {
     font-size: 16px;
   }
 
+  .container {
+    padding: 0 1rem;
+  }
+
+  .logo {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+
+  nav {
+    gap: 0.5rem;
+  }
+
+  nav a {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
   .hero-badge {
     top: 0.5rem;
     right: 1.5rem;
@@ -597,10 +635,6 @@ footer .container {
   .gallery-page {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-  }
-
-  nav {
-    gap: 1rem;
   }
 
   footer .container {
@@ -660,19 +694,19 @@ footer .container {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: filter 0.3s ease, transform 0.3s ease;
+  transition: filter 0.4s ease-out, opacity 0.4s ease-out;
 }
 
-/* Loading state - blurred */
+/* Loading state - blurred placeholder */
 .testimonial-img--loading {
   filter: blur(10px) grayscale(20%);
-  transform: scale(1.05); /* Hide blur edges */
+  opacity: 0.7;
 }
 
-/* Loaded state - sharp with transition */
+/* Loaded state - sharp */
 .testimonial-img--loaded {
   filter: grayscale(20%);
-  transform: scale(1);
+  opacity: 1;
 }
 
 .testimonial-img--loaded:hover {
