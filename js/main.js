@@ -51,7 +51,7 @@
     const sentinel = document.getElementById('testimonials-sentinel');
     if (!grid || !sentinel) return;
 
-    const totalImages = 74;
+    const totalImages = 75;
     const excludedImages = [9];
     const batchSize = 6;
     let loaded = 0;
