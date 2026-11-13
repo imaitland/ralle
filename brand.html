@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#fafafa">
+  <title>Branding - RALLE</title>
+  <meta name="description" content="RALLE logos, titles and colours to download for flyers, posters and posts.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <style>
+    /* this page only: brand colours and the tile grids */
+    :root {
+      --navy: #2b3e72;
+      --gold: #f8b91e;
+      --ink: #1a1a1a;
+      --paper: #fafafa;
+      --red: #c41e3a;
+      /* the grey-and-white squares that mean "see-through" */
+      --checker: repeating-conic-gradient(#d9d9d9 0% 25%, #ffffff 0% 50%) 0 0 / 20px 20px;
+    }
+    .brand-main .container { max-width: 1040px; }
+    .lede { max-width: 640px; color: var(--text-secondary); }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .tile { display: flex; flex-direction: column; gap: 0.5rem; margin: 0; }
+    .tile__art {
+      aspect-ratio: 4 / 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .tile__art img, .tile__art canvas { width: 100%; height: 100%; object-fit: contain; }
+    /* the photo behind every "on a photo" preview; the picker below changes it */
+    :root { --photo: url('images/gallery/md/gallery_image_01.jpg'); }
+    .tile__art--photo { background: center / cover no-repeat var(--photo); }
+    .photo-picker { margin-top: 1.5rem; }
+    .photo-picker__label { font-weight: 700; font-size: 0.875rem; display: block; margin-bottom: 0.5rem; }
+    .photo-picker__options { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+    .photo-picker__options button { width: 64px; height: 48px; padding: 0; border: 1px solid var(--border); background: center / cover no-repeat; cursor: pointer; }
+    .photo-picker__options button[aria-checked=true] { outline: 3px solid var(--text); outline-offset: 2px; }
+    .photo-picker__own { font-size: 0.8rem; }
+    .photo-picker__own input { display: block; margin-top: 0.25rem; font-size: 0.8rem; max-width: 100%; }
+    .tile figcaption { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4; }
+    .tile .btn { padding: 0.5rem 0.75rem; font-size: 0.75rem; text-align: center; }
+    .downloads { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+    .title-form { display: grid; gap: 1rem; margin-top: 1.5rem; max-width: 640px; }
+    .title-form label { font-weight: 700; font-size: 0.875rem; display: block; margin-bottom: 0.25rem; }
+    .title-form textarea {
+      width: 100%;
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      padding: 0.5rem 0.75rem;
+      border: 2px solid var(--text);
+      background: #fff;
+      color: var(--text);
+      resize: vertical;
+    }
+    .presets { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .presets .btn { padding: 0.4rem 0.75rem; font-size: 0.75rem; }
+    .check { display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; }
+
+    .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .swatch {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      padding: 0;
+      border: 1px solid var(--border);
+      background: #fff;
+      font: inherit;
+      color: inherit;
+      text-align: left;
+      cursor: pointer;
+    }
+    .swatch__chip { height: 90px; }
+    .swatch__text { padding: 0.5rem 0.75rem; font-size: 0.8rem; line-height: 1.5; }
+    .swatch__text strong { display: block; font-size: 0.875rem; }
+    .swatch:hover, .swatch:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+
+    .type-sample { padding: 1.5rem 0; border-bottom: 1px solid var(--border); }
+    .type-sample:last-child { border-bottom: none; }
+    .type-sample p { margin-bottom: 0.25rem; }
+    .type-sample .meta { font-size: 0.8rem; color: var(--text-secondary); }
+
+    .type-maker { display: grid; gap: 1rem; margin-top: 1.5rem; }
+    .type-maker__controls { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); gap: 1rem 1.5rem; }
+    .field label, .field__label { display: block; font-weight: 700; font-size: 0.875rem; margin-bottom: 0.25rem; }
+    .field .check { font-weight: 400; margin-bottom: 0.5rem; }
+    .field--wide { grid-column: 1 / -1; }
+    .field select, .field textarea { width: 100%; font: inherit; padding: 0.4rem 0.5rem; border: 2px solid var(--text); background: #fff; color: var(--text); }
+    .field input[type=range] { width: 100%; accent-color: var(--navy); }
+    .field output { font-weight: 400; color: var(--text-secondary); }
+    .tm-colours { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tm-colours button { width: 2rem; height: 2rem; border: 1px solid var(--border); cursor: pointer; padding: 0; }
+    .tm-colours button[aria-checked=true] { outline: 3px solid var(--text); outline-offset: 2px; }
+    .tm-colours input[type=color] { width: 2rem; height: 2rem; padding: 0; border: 1px solid var(--border); background: none; cursor: pointer; }
+    .type-maker__preview {
+      background: var(--checker);
+      border: 1px solid var(--border);
+      min-height: 200px;
+      max-height: 480px;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .type-maker__preview.is-dark { background: var(--ink); }
+    .type-maker__preview.is-photo { background: center / cover no-repeat var(--photo); }
+    .type-maker__preview canvas { max-width: 100%; max-height: 440px; width: auto; height: auto; }
+
+    .status { min-height: 1.5rem; font-size: 0.875rem; color: var(--text-secondary); }
+    .btn:focus-visible, .presets .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">RALLE-UE</a>
+      <nav>
+        <a href="platform.html#platform">Platform</a>
+        <a href="faq.html#faq">FAQ</a>
+        <a href="press.html#press">Press</a>
+        <a href="who-we-are.html">Who We Are</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="brand-main">
+    <div class="container">
+      <h1>Branding</h1>
+      <p class="lede">Logos, titles and colours for flyers, posters and posts. Every download is a PNG. The grey-and-white
+        squares mean the image is see-through there, so it sits on top of whatever you place it on.</p>
+      <div class="photo-picker">
+        <span class="photo-picker__label" id="photo-label">Background photo for the previews</span>
+        <div class="photo-picker__options">
+          <div role="radiogroup" aria-labelledby="photo-label" class="photo-picker__options" id="photo-options"></div>
+          <label class="photo-picker__own">Or use your own photo (it stays on your device)
+            <input type="file" id="photo-own" accept="image/*"></label>
+        </div>
+      </div>
+
+      <section id="badge">
+        <h2>Badge</h2>
+        <p class="lede">The round badge has its own see-through background. Each tile shows how it looks on that colour;
+          the file you download is the same in every case.</p>
+        <div class="tiles" id="badge-tiles"></div>
+        <div class="downloads" style="margin-top: 1.5rem">
+          <a class="btn btn-primary" href="images/ralle_logo_sm.png" download="ralle-badge-200.png">Badge 200 px</a>
+          <a class="btn btn-primary" href="images/ralle_logo_md.png" download="ralle-badge-400.png">Badge 400 px</a>
+          <a class="btn btn-primary" href="favicon/android-chrome-512x512.png" download="ralle-badge-512.png">Badge 512 px</a>
+        </div>
+      </section>
+
+      <section id="titles">
+        <h2>Titles</h2>
+        <p class="lede">Type a title or pick one, then download it in any of the styles below. Use a new line to break
+          the title where you want. Titles download at print size (about 1,600 px wide or more).</p>
+        <div class="title-form">
+          <div>
+            <label for="title-text">Title</label>
+            <textarea id="title-text" rows="2">Research and Lab
+Labor Empowered</textarea>
+          </div>
+          <div>
+            <span class="label" style="font-weight: 700; font-size: 0.875rem; display: block; margin-bottom: 0.25rem">Start from</span>
+            <div class="presets" id="presets"></div>
+          </div>
+          <label class="check"><input type="checkbox" id="with-badge" checked> Put the badge beside the title</label>
+        </div>
+        <p class="status" id="status" aria-live="polite"></p>
+        <div class="tiles" id="title-tiles"></div>
+      </section>
+
+      <section id="colours">
+        <h2>Colours</h2>
+        <p class="lede">Select a colour to copy its hex code.</p>
+        <div class="swatches" id="swatches"></div>
+      </section>
+
+      <section id="type">
+        <h2>Typefaces</h2>
+        <div class="type-sample">
+          <p style="font-family: var(--font-display); font-weight: 900; font-size: 2.5rem; text-transform: uppercase; line-height: 1">Union Gothic</p>
+          <p class="meta">Titles and headings, always in capitals. From <a class="external" href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">wehtt.am</a>.</p>
+        </div>
+        <div class="type-sample">
+          <p style="font-family: var(--font-body); font-size: 1.25rem">Klima: body text for paragraphs and details.</p>
+          <p class="meta">Running text. From <a class="external" href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">wehtt.am</a>.</p>
+        </div>
+        <div class="type-sample">
+          <p style="font-family: var(--font-nav); font-weight: 700; font-size: 1.1rem; text-transform: uppercase">Clack: labels and navigation</p>
+          <p class="meta">Small labels. From <a class="external" href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">wehtt.am</a>.</p>
+        </div>
+
+        <h3 id="type-maker-title">Make text in our fonts</h3>
+        <p class="lede">Write anything, set it in one of our typefaces, and download it as a PNG with a see-through
+          background. You don't need the fonts installed.</p>
+        <div class="type-maker" role="group" aria-labelledby="type-maker-title">
+          <div class="type-maker__controls">
+            <div class="field field--wide">
+              <label for="tm-text">Text</label>
+              <textarea id="tm-text" rows="3">Union strong</textarea>
+            </div>
+            <div class="field">
+              <label for="tm-font">Typeface</label>
+              <select id="tm-font">
+                <option value="Union Gothic">Union Gothic</option>
+                <option value="Klima">Klima</option>
+                <option value="Clack">Clack</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="tm-weight">Weight</label>
+              <select id="tm-weight"></select>
+            </div>
+            <div class="field">
+              <label for="tm-size">Size <output id="tm-size-out" for="tm-size"></output></label>
+              <input type="range" id="tm-size" min="24" max="400" step="4" value="160">
+            </div>
+            <div class="field">
+              <label for="tm-spacing">Letter spacing <output id="tm-spacing-out" for="tm-spacing"></output></label>
+              <input type="range" id="tm-spacing" min="-0.1" max="0.5" step="0.01" value="0">
+            </div>
+            <div class="field">
+              <label for="tm-line">Line height <output id="tm-line-out" for="tm-line"></output></label>
+              <input type="range" id="tm-line" min="0.8" max="2" step="0.05" value="1.1">
+            </div>
+            <div class="field">
+              <label for="tm-align">Alignment</label>
+              <select id="tm-align">
+                <option value="left">Left</option>
+                <option value="center">Centre</option>
+                <option value="right">Right</option>
+              </select>
+            </div>
+            <div class="field">
+              <span class="field__label" id="tm-colour-label">Colour</span>
+              <div class="tm-colours" role="radiogroup" aria-labelledby="tm-colour-label" id="tm-colours"></div>
+            </div>
+            <div class="field">
+              <label class="check"><input type="checkbox" id="tm-caps"> All capitals</label>
+              <label class="check"><input type="checkbox" id="tm-italic"> Slanted (the browser leans the letters; our fonts have no italic)</label>
+            </div>
+            <div class="field">
+              <label for="tm-scale">Export size</label>
+              <select id="tm-scale">
+                <option value="1">1× (screen)</option>
+                <option value="2" selected>2× (print)</option>
+                <option value="4">4× (large print)</option>
+              </select>
+            </div>
+          </div>
+          <div class="type-maker__preview" id="tm-preview"></div>
+          <div class="downloads">
+            <button type="button" class="btn btn-primary" id="tm-download">Download PNG</button>
+            <label class="check" for="tm-bg">Preview on
+              <select id="tm-bg" style="font: inherit; padding: 0.4rem 0.5rem; border: 2px solid var(--text); background: #fff">
+                <option value="">See-through squares</option>
+                <option value="is-dark">Ink</option>
+                <option value="is-photo">The background photo</option>
+              </select></label>
+          </div>
+          <p class="status" id="tm-status" aria-live="polite"></p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="platform.html#platform">Platform</a>
+        <a href="faq.html#faq">FAQ</a>
+        <a href="press.html#press">Press</a>
+        <a href="who-we-are.html">Who We Are</a>
+        <a href="mailto:info@rallejhu.org">Contact</a>
+        <a href="https://www.ueunion.org/" target="_blank" rel="noopener noreferrer">UE Union</a>
+        <a href="https://givebutter.com/efmdJv" target="_blank" rel="noopener noreferrer">Give</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://instagram.com/rallejhu" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://bsky.app/profile/rallejhu.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">RALLE - Research and Lab Labor Empowered</div>
+        <div class="colophon"><a href="brand.html">Branding</a> · Colophon: <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Union Gothic</a>, <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Klima</a>, <a href="https://wehtt.am/fonts/" target="_blank" rel="noopener noreferrer">Clack</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const COLOURS = [
+      { name: 'Badge navy', hex: '#2b3e72' },
+      { name: 'Badge gold', hex: '#f8b91e' },
+      { name: 'Ink', hex: '#1a1a1a' },
+      { name: 'Paper', hex: '#fafafa' },
+      { name: 'Accent red', hex: '#c41e3a' },
+      { name: 'White', hex: '#ffffff' },
+    ];
+    const BADGE_BACKGROUNDS = [
+      { label: 'See-through', css: 'var(--checker)' },
+      { label: 'Paper', css: 'var(--paper)' },
+      { label: 'Ink', css: 'var(--ink)' },
+      { label: 'Navy', css: 'var(--navy)' },
+      { label: 'Gold', css: 'var(--gold)' },
+      { label: 'Red', css: 'var(--red)' },
+      { label: 'On a photo', photo: true },
+    ];
+    // text colour, background fill (null = see-through), how the tile shows it, and the file name
+    const TITLE_STYLES = [
+      { label: 'Navy, see-through background', fg: '#2b3e72', bg: null, show: 'var(--checker)', file: 'navy-clear' },
+      { label: 'White, see-through background', fg: '#ffffff', bg: null, show: 'var(--ink)', file: 'white-clear', note: 'Shown on ink so the white is visible.' },
+      { label: 'Gold, see-through background', fg: '#f8b91e', bg: null, show: 'var(--checker)', file: 'gold-clear' },
+      { label: 'Ink, see-through background', fg: '#1a1a1a', bg: null, show: 'var(--checker)', file: 'ink-clear' },
+      { label: 'Gold on navy', fg: '#f8b91e', bg: '#2b3e72', file: 'gold-on-navy' },
+      { label: 'Navy on gold', fg: '#2b3e72', bg: '#f8b91e', file: 'navy-on-gold' },
+      { label: 'Ink on paper', fg: '#1a1a1a', bg: '#fafafa', file: 'ink-on-paper' },
+      { label: 'Paper on ink', fg: '#fafafa', bg: '#1a1a1a', file: 'paper-on-ink' },
+      { label: 'White on red', fg: '#ffffff', bg: '#c41e3a', file: 'white-on-red' },
+      { label: 'White on a navy panel you can see through (80%)', fg: '#ffffff', bg: 'rgba(43, 62, 114, 0.8)', photo: true, file: 'white-on-navy-80' },
+      { label: 'White on a dark panel you can see through (60%)', fg: '#ffffff', bg: 'rgba(26, 26, 26, 0.6)', photo: true, file: 'white-on-dark-60' },
+      { label: 'Navy on a light panel you can see through (85%)', fg: '#2b3e72', bg: 'rgba(250, 250, 250, 0.85)', photo: true, file: 'navy-on-light-85' },
+    ];
+    // phrases the site already uses
+    const PRESETS = ['RALLE-UE', 'RALLE', 'Research and Lab\nLabor Empowered', 'Dignity, respect\nand a contract'];
+
+    const FONT_PX = 200, PAD = 0.45 * FONT_PX, LINE = 1.0;
+    const badge = new Image();
+    badge.src = 'favicon/android-chrome-512x512.png';
+    const badgeReady = badge.decode().catch(() => null);
+
+    const $ = id => document.getElementById(id);
+    const status = msg => { $('status').textContent = msg; };
+    const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'title';
+
+    // draws the title at print size: the canvas is both the preview and the file
+    function drawTitle(text, style, withBadge) {
+      const lines = text.toUpperCase().split('\n').map(l => l.trim()).filter(Boolean);
+      const font = `900 ${FONT_PX}px "Union Gothic", system-ui, sans-serif`;
+      const probe = document.createElement('canvas').getContext('2d');
+      probe.font = font;
+      const textW = Math.max(1, ...lines.map(l => probe.measureText(l).width));
+      const textH = Math.max(1, lines.length) * FONT_PX * LINE;
+      const badgeSize = withBadge && badge.complete && badge.naturalWidth ? textH : 0;
+      const gap = badgeSize ? 0.25 * FONT_PX : 0;
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.ceil(PAD * 2 + badgeSize + gap + textW);
+      canvas.height = Math.ceil(PAD * 2 + textH);
+      const ctx = canvas.getContext('2d');
+      if (style.bg) { ctx.fillStyle = style.bg; ctx.fillRect(0, 0, canvas.width, canvas.height); }
+      if (badgeSize) ctx.drawImage(badge, PAD, PAD, badgeSize, badgeSize);
+      ctx.font = font;
+      ctx.fillStyle = style.fg;
+      ctx.textBaseline = 'top';
+      lines.forEach((line, i) => ctx.fillText(line, PAD + badgeSize + gap, PAD + i * FONT_PX * LINE + FONT_PX * 0.08));
+      canvas.setAttribute('role', 'img');
+      canvas.setAttribute('aria-label', `${lines.join(' ')}: ${style.label}`);
+      return canvas;
+    }
+
+    function tile(art, caption, actions) {
+      const fig = document.createElement('figure');
+      fig.className = 'tile';
+      fig.append(art);
+      const cap = document.createElement('figcaption');
+      cap.textContent = caption;
+      fig.append(cap);
+      if (actions) fig.append(actions);
+      return fig;
+    }
+
+    function artBox(background, photo) {
+      const box = document.createElement('div');
+      box.className = 'tile__art' + (photo ? ' tile__art--photo' : '');
+      if (background) box.style.background = background;
+      return box;
+    }
+
+    // badge on every background
+    for (const bg of BADGE_BACKGROUNDS) {
+      const box = artBox(bg.css, bg.photo);
+      const img = new Image();
+      img.src = 'images/ralle_logo_md.png';
+      img.alt = `RALLE badge on ${bg.label.toLowerCase()}`;
+      img.width = 400; img.height = 400;
+      box.append(img);
+      $('badge-tiles').append(tile(box, bg.label));
+    }
+
+    // colour swatches
+    for (const c of COLOURS) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'swatch';
+      b.innerHTML = `<span class="swatch__chip" style="background:${c.hex}"></span>
+        <span class="swatch__text"><strong>${c.name}</strong>${c.hex.toUpperCase()}</span>`;
+      b.setAttribute('aria-label', `Copy ${c.name} ${c.hex}`);
+      b.onclick = async () => {
+        try { await navigator.clipboard.writeText(c.hex); status(`Copied ${c.name} (${c.hex}).`); }
+        catch { status(`Copy did not work here: ${c.name} is ${c.hex}.`); }
+        $('status').scrollIntoView({ block: 'nearest' });
+      };
+      $('swatches').append(b);
+    }
+
+    // title presets and tiles
+    for (const p of PRESETS) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'btn';
+      b.textContent = p.replace('\n', ' ');
+      b.onclick = () => { $('title-text').value = p; renderTitles(); };
+      $('presets').append(b);
+    }
+
+    function renderTitles() {
+      const text = $('title-text').value;
+      const withBadge = $('with-badge').checked;
+      $('title-tiles').replaceChildren(...TITLE_STYLES.map(style => {
+        const canvas = drawTitle(text, style, withBadge);
+        const box = artBox(style.photo ? null : (style.show || style.bg), style.photo);
+        box.append(canvas);
+        const dl = document.createElement('button');
+        dl.type = 'button';
+        dl.className = 'btn btn-primary';
+        dl.textContent = 'Download PNG';
+        dl.onclick = () => canvas.toBlob(blob => {
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = `ralle-${slug(text)}-${style.file}.png`;
+          a.click();
+          setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+          status(`Downloaded ${a.download}.`);
+        }, 'image/png');
+        return tile(box, style.label + (style.note ? ' ' + style.note : '') +
+          (style.photo ? ' Shown over a photo; the photo is not in the file.' : ''), dl);
+      }));
+    }
+
+    $('title-text').addEventListener('input', renderTitles);
+    $('with-badge').addEventListener('change', renderTitles);
+    // draw once the title font and the badge have loaded, so the first preview is right
+    Promise.all([document.fonts.load(`900 ${FONT_PX}px "Union Gothic"`), badgeReady]).then(renderTitles, renderTitles);
+
+    // ---- type maker: any text in our fonts, as a see-through PNG ----
+    // the weights each font file really has: Union Gothic's axis starts at 400, and the site's CSS stops it at 900
+    const WEIGHTS = {
+      'Union Gothic': [400, 500, 600, 700, 800, 900],
+      'Klima': [400, 500, 700],
+      'Clack': [400, 500, 700],
+    };
+    const WEIGHT_NAMES = { 100: 'Thin', 200: 'Extra light', 300: 'Light', 400: 'Regular', 500: 'Medium',
+      600: 'Semibold', 700: 'Bold', 800: 'Extra bold', 900: 'Black' };
+    const tm = {
+      text: $('tm-text'), font: $('tm-font'), weight: $('tm-weight'), size: $('tm-size'), spacing: $('tm-spacing'),
+      line: $('tm-line'), align: $('tm-align'), caps: $('tm-caps'), italic: $('tm-italic'), scale: $('tm-scale'),
+    };
+    let tmColour = '#2b3e72', tmCanvas = null, tmRun = 0;
+
+    function setWeights() {
+      const keep = Number(tm.weight.value) || 700;
+      const ws = WEIGHTS[tm.font.value];
+      tm.weight.replaceChildren(...ws.map(w => new Option(`${WEIGHT_NAMES[w]} (${w})`, w)));
+      // nearest weight this font has to the one chosen before
+      tm.weight.value = ws.reduce((a, b) => Math.abs(b - keep) < Math.abs(a - keep) ? b : a);
+    }
+
+    // canvas letter spacing is not in every browser yet, so spaced text is drawn a letter at a time
+    function lineWidth(ctx, line, spacing) {
+      if (!spacing) return ctx.measureText(line).width;
+      const chars = [...line];
+      return chars.reduce((w, ch) => w + ctx.measureText(ch).width, 0) + spacing * Math.max(0, chars.length - 1);
+    }
+    function drawLine(ctx, line, x, y, spacing) {
+      if (!spacing) return ctx.fillText(line, x, y);
+      for (const ch of line) { ctx.fillText(ch, x, y); x += ctx.measureText(ch).width + spacing; }
+    }
+
+    async function renderTypeMaker() {
+      const run = ++tmRun;
+      const scale = Number(tm.scale.value);
+      const px = Number(tm.size.value) * scale;
+      const font = `${tm.italic.checked ? 'italic ' : ''}${tm.weight.value} ${px}px "${tm.font.value}"`;
+      $('tm-size-out').textContent = `${tm.size.value} px`;
+      $('tm-spacing-out').textContent = `${Math.round(Number(tm.spacing.value) * 100)}%`;
+      $('tm-line-out').textContent = `${Number(tm.line.value).toFixed(2)}×`;
+      try { await document.fonts.load(font); } catch { /* draws with the fallback font */ }
+      if (run !== tmRun) return;  // a newer change is already drawing
+      const raw = tm.text.value || ' ';
+      const lines = (tm.caps.checked ? raw.toUpperCase() : raw).split('\n');
+      const spacing = Number(tm.spacing.value) * px;
+      const lineH = px * Number(tm.line.value);
+      const ctxProbe = document.createElement('canvas').getContext('2d');
+      ctxProbe.font = font;
+      const widths = lines.map(l => lineWidth(ctxProbe, l, spacing));
+      // room for the slant and for letters that reach past their box
+      const pad = Math.ceil(px * (tm.italic.checked ? 0.35 : 0.2));
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.ceil(Math.max(1, ...widths) + pad * 2);
+      canvas.height = Math.ceil(lineH * lines.length + pad * 2);
+      const ctx = canvas.getContext('2d');
+      ctx.font = font;
+      ctx.fillStyle = tmColour;
+      ctx.textBaseline = 'middle';
+      const inner = canvas.width - pad * 2;
+      lines.forEach((line, i) => {
+        const x = pad + (tm.align.value === 'center' ? (inner - widths[i]) / 2 : tm.align.value === 'right' ? inner - widths[i] : 0);
+        drawLine(ctx, line, x, pad + lineH * (i + 0.5), spacing);
+      });
+      canvas.setAttribute('role', 'img');
+      canvas.setAttribute('aria-label', `Preview: ${raw.replace(/\n/g, ' ')}`);
+      tmCanvas = canvas;
+      $('tm-preview').replaceChildren(canvas);
+    }
+
+    for (const c of COLOURS) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.style.background = c.hex;
+      b.dataset.hex = c.hex;
+      b.setAttribute('role', 'radio');
+      b.setAttribute('aria-checked', String(c.hex === tmColour));
+      b.setAttribute('aria-label', c.name);
+      b.onclick = () => pickColour(c.hex);
+      $('tm-colours').append(b);
+    }
+    const custom = document.createElement('input');
+    custom.type = 'color';
+    custom.value = tmColour;
+    custom.setAttribute('aria-label', 'Any other colour');
+    custom.oninput = () => pickColour(custom.value);
+    $('tm-colours').append(custom);
+    function pickColour(c) {
+      tmColour = c;
+      for (const b of $('tm-colours').querySelectorAll('button')) b.setAttribute('aria-checked', String(b.dataset.hex === c));
+      renderTypeMaker();
+    }
+
+    tm.font.addEventListener('change', () => { setWeights(); renderTypeMaker(); });
+    for (const el of Object.values(tm)) el.addEventListener('input', renderTypeMaker);
+    $('tm-bg').onchange = e => { $('tm-preview').className = 'type-maker__preview ' + e.target.value; };
+
+    // background photo picker: the site's gallery, or one of the viewer's own (never uploaded)
+    const setPhoto = url => {
+      document.documentElement.style.setProperty('--photo', `url("${url}")`);
+      for (const b of $('photo-options').querySelectorAll('button')) b.setAttribute('aria-checked', String(b.dataset.url === url));
+    };
+    for (let n = 1; n <= 12; n++) {
+      const id = String(n).padStart(2, '0');
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.dataset.url = `images/gallery/md/gallery_image_${id}.jpg`;
+      b.style.backgroundImage = `url("images/gallery/sm/gallery_image_${id}.jpg")`;
+      b.setAttribute('role', 'radio');
+      b.setAttribute('aria-checked', String(n === 1));
+      b.setAttribute('aria-label', `Gallery photo ${n}`);
+      b.onclick = () => setPhoto(b.dataset.url);
+      $('photo-options').append(b);
+    }
+    let ownPhoto = null;
+    $('photo-own').onchange = e => {
+      const file = e.target.files[0];
+      if (!file) return;
+      if (ownPhoto) URL.revokeObjectURL(ownPhoto);
+      ownPhoto = URL.createObjectURL(file);
+      setPhoto(ownPhoto);
+    };
+    $('tm-download').onclick = () => tmCanvas && tmCanvas.toBlob(blob => {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `ralle-${slug(tm.text.value)}-${slug(tm.font.value)}-${tm.weight.value}.png`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+      $('tm-status').textContent = `Downloaded ${a.download}.`;
+    }, 'image/png');
+    setWeights();
+    renderTypeMaker();
+  </script>
+</body>
+</html>
